@@ -185,7 +185,7 @@
 		author = "Unknown"
 		et_alia = FALSE
 	if(!abstract)
-		abstract = "Published on [server_timestamp(ic_time = TRUE)] (PT: [round_timestamp()])"
+		abstract = "Published on [server_timestamp(ic_time = TRUE)]" // DARKPACK EDIT CHANGE - CITY_TIME
 
 /datum/scientific_paper/explosive
 	/**

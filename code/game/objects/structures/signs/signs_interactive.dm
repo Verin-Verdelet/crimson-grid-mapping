@@ -7,7 +7,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/clock, 32)
 
 /obj/structure/sign/clock/examine(mob/user)
 	. = ..()
-	. += span_info("The current CST (local) time is: [server_timestamp(ic_time = TRUE, twelve_hour_clock = user.client?.prefs.read_preference(/datum/preference/toggle/twelve_hour))].") // DAKRPACK EDIT CHANGE
+	. += span_info("The current CST (local) time is: [server_timestamp(ic_time = TRUE, twelve_hour_clock = user.client?.prefs.read_preference(/datum/preference/toggle/twelve_hour))].") // DAKRPACK EDIT CHANGE - CITY_TIME
 	/* //DARKPACK EDIT REMOVAL
 	if(user.is_literate())
 		. += span_info("That means it is currently [round_timestamp()] into the shift.")

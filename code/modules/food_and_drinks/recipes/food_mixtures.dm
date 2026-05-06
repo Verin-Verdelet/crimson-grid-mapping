@@ -121,7 +121,7 @@
 
 /datum/chemical_reaction/food/chocolatepudding/on_reaction(datum/reagents/holder, datum/equilibrium/reaction, created_volume)
 	. = ..()
-	if(!ISINRANGE(world.timeofday, 3 HOURS + 45 MINUTES, 4 HOURS + 15 MINUTES))
+	if(!ISINRANGE(city_time(), 3 HOURS + 45 MINUTES, 4 HOURS + 15 MINUTES)) // DARKPACK EDIT CHANGE - CITY_TIME
 		return
 	var/lastkey = holder.my_atom?.fingerprintslast
 	if(!lastkey)

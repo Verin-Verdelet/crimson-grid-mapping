@@ -2,7 +2,7 @@
 /proc/server_timestamp(format = "hh:mm:ss", show_ds, ic_time, twelve_hour_clock)
 	// DARKPACK EDIT ADD START - CITY_TIME
 	if(ic_time)
-		var/time_string = city_time_timestamp(format)
+		var/time_string = twelve_hour_clock ? time_to_twelve_hour(format, city_time(), NO_TIMEZONE) : time2text(city_time(), format, NO_TIMEZONE)
 		if(findtext(format, "YYYY")) //if we have a year, replace the year
 			time_string = replacetext_char(time_string, "[GLOB.year_integer]", CURRENT_STATION_YEAR)
 		return time_string
