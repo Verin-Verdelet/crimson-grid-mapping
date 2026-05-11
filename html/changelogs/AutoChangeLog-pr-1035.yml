@@ -1,4 +1,0 @@
-author: "chazzyjazzy"
-delete-after: True
-changes:
-  - rscadd: "finance as a stat now gives steady, consistent income, rather than a lump sum at roundstart"
