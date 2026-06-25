@@ -286,6 +286,11 @@ GLOBAL_LIST_INIT(message_modes_stat_limits, list(
 	else
 		deaf_type = MSG_AUDIBLE
 
+// DARKPACK EDIT ADD START - MERITS_FLAWS - (acute sense)
+	if (HAS_TRAIT(src, TRAIT_ACUTE_HEARING) && !HAS_TRAIT(speaker, TRAIT_SIGN_LANG))// we can't HEAR sign, so we don't care for it
+		message_range += 3 // Increase how far we can hear
+// DARKPACK EDIT ADD END
+
 	var/atom/movable/virtualspeaker/holopad_speaker = speaker
 	var/avoid_highlight = src == (istype(holopad_speaker) ? holopad_speaker.source : speaker)
 
@@ -306,13 +311,13 @@ GLOBAL_LIST_INIT(message_modes_stat_limits, list(
 
 	var/message = ""
 	// if someone is whispering we make an extra type of message that is obfuscated for people out of range
-	// Less than or equal to 0 means normal hearing. More than 0 and less than or equal to EAVESDROP_EXTRA_RANGE means
-	// partial hearing. More than EAVESDROP_EXTRA_RANGE means no hearing. Exception for GOOD_HEARING trait
+	// Less than or equal to 0 means normal hearing. More than 0 and less than or equal to eavesdrop_range means
+	// partial hearing. More than eavesdrop_range means no hearing. Exception for GOOD_HEARING trait
 	var/dist = get_dist(speaker, src) - message_range
-	if(dist > 0 && dist <= EAVESDROP_EXTRA_RANGE && !HAS_TRAIT(src, TRAIT_GOOD_HEARING))
+	if(dist > 0 && dist <= eavesdrop_range && !HAS_TRAIT(src, TRAIT_GOOD_HEARING))
 		raw_message = stars(raw_message)
 	var/speaker_name = span_name("[message_mods[MODE_SPEAKER_NAME_OVERRIDE] || speaker]")
-	if(message_range != INFINITY && dist > EAVESDROP_EXTRA_RANGE && !HAS_TRAIT(src, TRAIT_GOOD_HEARING))
+	if(message_range != INFINITY && dist > eavesdrop_range && !HAS_TRAIT(src, TRAIT_GOOD_HEARING))
 		// Too far away and don't have good hearing, you can't hear anything
 		if(is_blind() || HAS_TRAIT(speaker, TRAIT_INVISIBLE_MAN)) // Can't see them speak either
 			return FALSE

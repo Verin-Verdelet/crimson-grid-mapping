@@ -391,6 +391,7 @@
 				ROLE_MALF,
 				ROLE_NINJA,
 				ROLE_OPERATIVE,
+				ROLE_CLOWN_OPERATIVE,
 				ROLE_OVERTHROW,
 				ROLE_PARADOX_CLONE,
 				ROLE_REV,
@@ -650,7 +651,7 @@
 		"admin_ckey" = admin_ckey,
 		"admin_key_name" = key_name(usr),
 		"round_id" = GLOB.round_id,
-		"round_timer" = ROUND_TIME(),
+		"round_timer" = round_timestamp(),
 		"world_time" = world.time,
 	)
 

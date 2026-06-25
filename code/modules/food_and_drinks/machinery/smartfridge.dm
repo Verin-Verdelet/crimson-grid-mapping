@@ -14,6 +14,7 @@
 	light_range = MINIMUM_USEFUL_LIGHT_RANGE
 	integrity_failure = 0.5
 	can_atmos_pass = ATMOS_PASS_NO
+	pass_flags_self = PASSCLOSEDTURF
 	/// Icon state part for contents display
 	var/contents_overlay_icon = "plant"
 	/// What path boards used to construct it should build into when dropped. Needed so we don't accidentally have them build variants with items preloaded in them.
@@ -131,8 +132,7 @@
 	. = ..()
 	if(!anchored && welded_down) //make sure they're keep in sync in case it was forcibly unanchored by badmins or by a megafauna.
 		welded_down = FALSE
-	can_atmos_pass = anchorvalue ? ATMOS_PASS_NO : ATMOS_PASS_YES
-	air_update_turf(TRUE, anchorvalue)
+	recheck_atmos_passing()
 
 /obj/machinery/smartfridge/wrench_act(mob/living/user, obj/item/tool)
 	if(default_unfasten_wrench(user, tool) == SUCCESSFUL_UNFASTEN)
@@ -188,6 +188,14 @@
 		. += span_notice("The status display reads: This unit can hold a maximum of <b>[max_n_of_items]</b> items.")
 
 	. += structure_examine()
+
+/obj/machinery/smartfridge/on_set_machine_stat(old_value)
+	. = ..()
+	recheck_atmos_passing()
+	if(machine_stat & BROKEN)
+		pass_flags_self = PASSMACHINE
+		return
+	pass_flags_self = PASSCLOSEDTURF
 
 /// Returns details related to the fridge structure
 /obj/machinery/smartfridge/proc/structure_examine()
@@ -422,6 +430,13 @@
 
 	return FALSE
 
+/obj/machinery/smartfridge/proc/recheck_atmos_passing()
+	if(machine_stat & BROKEN)
+		can_atmos_pass = ATMOS_PASS_YES
+	else
+		can_atmos_pass = anchored ? ATMOS_PASS_NO : ATMOS_PASS_YES
+	air_update_turf(TRUE, anchored)
+
 // ----------------------------
 //  Drying 'smartfridge'
 // ----------------------------
@@ -506,7 +521,7 @@
 		use_energy(active_power_usage)
 
 /obj/machinery/smartfridge/drying/accept_check(obj/item/O)
-	return HAS_TRAIT(O, TRAIT_DRYABLE)
+	return HAS_TRAIT(O, TRAIT_DRYABLE) && !HAS_TRAIT(O, TRAIT_DRIED)
 
 /**
  * Toggles drying on or off
@@ -537,6 +552,7 @@
 	desc = "A wooden contraption, used to dry plant products, food and hide."
 	icon_state = "drying-rack"
 	base_icon_state = "drying-rack"
+	icon = 'modular_darkpack/master_files/icons/obj/machines/smartfridge.dmi' // DARKPACK EDIT ADD
 	resistance_flags = FLAMMABLE
 	visible_contents = FALSE
 	base_build_path = /obj/machinery/smartfridge/drying/rack
@@ -586,7 +602,18 @@
 	if(drying)
 		. += "[base_icon_state]-drying"
 	if(contents.len)
-		. += "[base_icon_state]-filled"
+		// DARKPACK EDIT CHANGE START
+		var/still_drying = FALSE
+		for(var/obj/item/item_iterator in src)
+			if(!accept_check(item_iterator))
+				continue
+			still_drying = TRUE
+			break
+		if(still_drying)
+			. += "[base_icon_state]-filled"
+		else
+			. += "[base_icon_state]-filled-dried"
+		// DARKPACK EDIT CHANGE END
 
 // ----------------------------
 //  Bar drink smartfridge
