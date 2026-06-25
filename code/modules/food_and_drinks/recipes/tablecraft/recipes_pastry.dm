@@ -306,7 +306,7 @@
 	result = /obj/item/food/soylenviridians // they look like waffles
 	dish_category = DISH_PASTRY
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/soylentgreen
 	name = "Soylent green"
 	reqs = list(
@@ -407,7 +407,7 @@
 	added_foodtypes = FRUIT|SUGAR
 	dish_category = DISH_PASTRY
 
-/* // DARKPACK EDIT REMOVE
+/* // DARKPACK EDIT REMOVAL
 /datum/crafting_recipe/food/donkpocket/gondola
 	time = 1.5 SECONDS
 	name = "Gondola-pocket"
@@ -764,3 +764,14 @@
 	)
 	result = /obj/item/food/cookie/macaron
 	dish_category = DISH_COOKIE
+
+/datum/crafting_recipe/food/apple_fritter
+	name = "Apple fritter"
+	reqs = list(
+		/obj/item/food/pastrybase = 1,
+		/obj/item/food/appleslice = 1,
+	)
+	result = /obj/item/food/apple_fritter
+	added_foodtypes = GRAIN|FRUIT|FRIED|BREAKFAST
+	dish_category = DISH_PASTRY
+	meal_category = MEAL_BREAKFAST
