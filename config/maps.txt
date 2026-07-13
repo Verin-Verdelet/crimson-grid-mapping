@@ -58,7 +58,7 @@ endmap
         disabled
 endmap
 
-map san_fangsisco
+map sanfangsisco
     votable
     default
 endmap
