@@ -29,12 +29,15 @@
 			"Baseturf": "/turf/open/openspace"
 		},
 		{
+			"Up": 1
 			"Down": -1,
 			"Baseturf": "/turf/open/openspace"
 		},
 		{
+			"Down":-1,
 			"Baseturf": "/turf/open/openspace"
 		}
+
 	],
 	"job_changes": {
 		"Graveyard Keeper": {
