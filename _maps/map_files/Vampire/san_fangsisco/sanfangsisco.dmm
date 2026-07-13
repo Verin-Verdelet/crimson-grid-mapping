@@ -37062,6 +37062,10 @@
 	dir = 9
 	},
 /obj/effect/decal/rugs,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/space/basic,
 /area/vtm/interior/sewer/nosferatu_warren)
 "klu" = (
 /turf/open/floor/iron/stairs/medium,
@@ -77134,6 +77138,10 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "veP" = (
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/turf/open/space/basic,
 /area/vtm/interior/sewer/nosferatu_warren)
 "veR" = (
 /obj/effect/decal/cleanable/litter,
