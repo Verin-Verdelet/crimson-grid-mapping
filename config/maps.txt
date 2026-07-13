@@ -59,8 +59,9 @@ endmap
 endmap
 
 #map sanfangsisco
-    votable
-    default
+        minplayers 20
+        votable
+        default
 endmap
 
 # Debug-only maps.
