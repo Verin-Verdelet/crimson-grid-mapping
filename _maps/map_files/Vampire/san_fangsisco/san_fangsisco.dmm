@@ -969,19 +969,6 @@
 	},
 /turf/closed/wall/vampwall/junk,
 /area/vtm/interior/sewer/nosferatu_warren)
-"amB" = (
-/obj/structure/vampdoor/simple{
-	dir = 4;
-	lockpick_difficulty = 10
-	},
-/obj/effect/mapping_helpers/door/access/camarilla,
-/obj/effect/mapping_helpers/door/lock,
-/obj/structure/lattice/pentex,
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/vtm/interior/millennium_tower/f4)
 "amH" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -3144,6 +3131,7 @@
 /obj/structure/table/wood,
 /obj/item/storage/fancy/cigarettes/cigars,
 /obj/item/lighter,
+/obj/item/food/grown/cannabis,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/anarch/basement)
 "aQd" = (
@@ -3577,16 +3565,6 @@
 "aVm" = (
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
-"aVo" = (
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
-	},
-/turf/open/space/basic,
-/area/vtm/interior/millennium_tower/f4)
 "aVu" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plating/concrete,
@@ -3977,6 +3955,10 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
+"bbB" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/plating/sidewalkalt,
+/area/space)
 "bbC" = (
 /obj/structure/sign/city/store/bubway{
 	pixel_y = 40
@@ -4469,9 +4451,6 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
-"bjg" = (
-/turf/open/space/basic,
-/area/vtm/interior/millennium_tower/f4)
 "bjh" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#4a3925";
@@ -6055,7 +6034,7 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower)
 "bFo" = (
-/obj/item/food/grown/cannabis,
+/obj/item/food/drug/meth_crystal,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "bFt" = (
@@ -7222,10 +7201,6 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
-"bYn" = (
-/obj/effect/decal/wallpaper/gold,
-/turf/closed/wall/vampwall/old,
-/area/space)
 "bYq" = (
 /obj/structure/table/wood,
 /obj/vampire_computer,
@@ -7294,19 +7269,6 @@
 /obj/effect/decal/wallpaper/paper/darkred,
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/church/haven)
-"cai" = (
-/obj/structure/vampdoor/simple{
-	dir = 4;
-	lockpick_difficulty = 10
-	},
-/obj/effect/mapping_helpers/door/access/camarilla,
-/obj/effect/mapping_helpers/door/lock,
-/obj/structure/lattice/pentex,
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/vtm/interior/millennium_tower/f4)
 "cal" = (
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/mansion)
@@ -8633,17 +8595,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/fishermanswharf/lower)
-"cqa" = (
-/obj/structure/closet/crate/coffin,
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
-	},
-/turf/open/space/basic,
-/area/vtm/interior/millennium_tower/f4)
 "cqq" = (
 /obj/structure/closet/crate/coffin,
 /obj/effect/turf_decal/siding/wood{
@@ -11219,11 +11170,8 @@
 	dir = 9
 	},
 /obj/structure/closet/secure_closet/evidence,
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
+/obj/item/cigarette/pipe/crackpipe,
+/obj/item/food/grown/cannabis,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/police)
 "dbg" = (
@@ -12837,6 +12785,10 @@
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/pacificheights/old)
+"dwD" = (
+/obj/effect/decal/wallpaper/padded,
+/turf/closed/wall/vampwall/old,
+/area/space)
 "dwF" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
@@ -13604,6 +13556,16 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/chantry)
+"dIu" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 16
+	},
+/turf/open/space/basic,
+/area/vtm/interior/millennium_tower/f4)
 "dIx" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -14169,8 +14131,9 @@
 /area/vtm/interior/shop)
 "dQm" = (
 /obj/structure/table,
-/obj/item/food/grown/cannabis,
 /obj/item/lighter,
+/obj/item/cigarette/pipe/crackpipe,
+/obj/item/food/grown/cannabis,
 /turf/open/floor/plating,
 /area/vtm/interior)
 "dQo" = (
@@ -16396,15 +16359,6 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/cog/pantry)
-"eBC" = (
-/obj/structure/vampdoor/reinf{
-	dir = 4;
-	lock_id = "manormalkextra";
-	locked = 1;
-	lockpick_difficulty = 6
-	},
-/turf/open/floor/plating/concrete,
-/area/space)
 "eBH" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/darkpack/greengold,
@@ -17224,6 +17178,9 @@
 /obj/structure/chair/wood,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"eOd" = (
+/turf/open/floor/plating/sidewalk,
+/area/space)
 "eOf" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -17238,9 +17195,6 @@
 	},
 /turf/open/floor/wood/old,
 /area/vtm/interior/hotel)
-"eOj" = (
-/turf/open/floor/plating/sidewalkalt,
-/area/space)
 "eOl" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood/smooth/old,
@@ -17909,6 +17863,17 @@
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/bianchiBank)
+"eXF" = (
+/obj/structure/closet/crate/coffin,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 16
+	},
+/turf/open/space/basic,
+/area/vtm/interior/millennium_tower/f4)
 "eXM" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
@@ -18476,6 +18441,19 @@
 	},
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer/nosferatu_warren)
+"ffT" = (
+/obj/structure/vampdoor/simple{
+	dir = 4;
+	lockpick_difficulty = 10
+	},
+/obj/effect/mapping_helpers/door/access/camarilla,
+/obj/effect/mapping_helpers/door/lock,
+/obj/structure/lattice/pentex,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/vtm/interior/millennium_tower/f4)
 "fgg" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 6
@@ -18826,10 +18804,6 @@
 	},
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer/nosferatu_warren)
-"fkj" = (
-/obj/effect/decal/cleanable/cardboard,
-/turf/open/floor/plating/sidewalkalt,
-/area/space)
 "fkk" = (
 /turf/closed/wall/vampwall/bar,
 /area/vtm/interior/anarch)
@@ -19642,6 +19616,10 @@
 /obj/item/vamp/keys/nosferatu,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer/nosferatu_warren)
+"fvl" = (
+/obj/structure/closet/crate/coffin,
+/turf/open/space/basic,
+/area/vtm/interior/millennium_tower/f4)
 "fvo" = (
 /obj/effect/turf_decal/bordur{
 	dir = 9
@@ -20160,6 +20138,10 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch)
+"fBy" = (
+/obj/effect/decal/cleanable/cardboard,
+/turf/open/floor/plating/sidewalkalt,
+/area/space)
 "fBA" = (
 /obj/effect/turf_decal/darkpack/dirt/corner{
 	dir = 4
@@ -20688,16 +20670,6 @@
 /area/vtm/interior/sewer/nosferatu_warren)
 "fJK" = (
 /turf/open/floor/plating/stone)
-"fJN" = (
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 8
-	},
-/obj/structure/railing{
-	dir = 8;
-	pixel_y = 2
-	},
-/turf/open/space/basic,
-/area/vtm/interior/millennium_tower/f4)
 "fJO" = (
 /obj/effect/decal/wallpaper/light,
 /turf/closed/wall/vampwall/brick,
@@ -21805,10 +21777,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/chinatown)
-"fYS" = (
-/obj/structure/closet/crate/coffin,
-/turf/open/space/basic,
-/area/vtm/interior/millennium_tower/f4)
 "fYX" = (
 /obj/structure/table/wood,
 /obj/item/chair/wood/wings,
@@ -26022,15 +25990,6 @@
 /obj/structure/filingcabinet/chestdrawer/wheeled,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/bianchiBank)
-"hhS" = (
-/obj/effect/turf_decal/bordur{
-	dir = 4
-	},
-/obj/effect/turf_decal/bordur{
-	dir = 8
-	},
-/turf/open/floor/plating/asphalt,
-/area/space)
 "hhW" = (
 /obj/structure/vampdoor/simple{
 	lock_id = "hunter";
@@ -27199,7 +27158,8 @@
 /area/vtm/interior)
 "hAI" = (
 /obj/structure/table/wood,
-/obj/item/food/grown/cannabis,
+/obj/item/cigarette/pipe/crackpipe,
+/obj/item/food/drug/meth_crystal,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/anarch/basement)
 "hAN" = (
@@ -30627,6 +30587,15 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
+"iyk" = (
+/obj/structure/vampdoor/reinf{
+	dir = 4;
+	lock_id = "manormalkextra";
+	locked = 1;
+	lockpick_difficulty = 6
+	},
+/turf/open/floor/plating/concrete,
+/area/space)
 "iym" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4;
@@ -31454,10 +31423,6 @@
 	icon_state = "carpet_black"
 	},
 /area/vtm/interior/sewer/nosferatu_warren)
-"iLf" = (
-/obj/effect/decal/wallpaper/padded,
-/turf/closed/wall/vampwall/old,
-/area/space)
 "iLl" = (
 /obj/structure/closet/crate/freezer,
 /turf/open/floor/city/toilet,
@@ -31467,6 +31432,10 @@
 /obj/item/stack/medical/mesh,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior)
+"iLs" = (
+/obj/structure/lamppost/sidewalk,
+/turf/open/floor/plating/sidewalk,
+/area/space)
 "iLt" = (
 /obj/structure/bed/maint,
 /obj/effect/decal/pallet,
@@ -32175,10 +32144,6 @@
 /obj/effect/decal/graffiti,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/chinatown)
-"iWc" = (
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/plating/sidewalkalt,
-/area/space)
 "iWh" = (
 /obj/machinery/light/directional/north,
 /obj/structure/table,
@@ -33006,6 +32971,10 @@
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/supply)
+"jik" = (
+/obj/effect/decal/wallpaper/gold,
+/turf/closed/wall/vampwall/old,
+/area/space)
 "jim" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -34414,12 +34383,8 @@
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/strip)
 "jAj" = (
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
 /obj/structure/platform/lowwall/rich/old,
+/obj/item/food/grown/cannabis,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/strip)
 "jAk" = (
@@ -35877,20 +35842,6 @@
 /obj/effect/landmark/npcwall,
 /turf/open/misc/dirt,
 /area/vtm/outside/pacificheights)
-"jTB" = (
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 9
-	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
-	},
-/obj/structure/railing{
-	dir = 8;
-	pixel_y = 2
-	},
-/turf/open/space/basic,
-/area/vtm/interior/millennium_tower/f4)
 "jTG" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/wood/smooth/old,
@@ -36797,6 +36748,19 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/glasswalker)
+"kfU" = (
+/obj/structure/vampdoor/simple{
+	dir = 4;
+	lockpick_difficulty = 10
+	},
+/obj/effect/mapping_helpers/door/access/camarilla,
+/obj/effect/mapping_helpers/door/lock,
+/obj/structure/lattice/pentex,
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/vtm/interior/millennium_tower/f4)
 "kfX" = (
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/clinic)
@@ -37950,10 +37914,11 @@
 /area/vtm/outside/ghetto)
 "kzo" = (
 /obj/structure/glowshroom/single,
-/obj/item/food/grown/cannabis{
-	desc = "Green and smelly... It's a special one, maybe costs hundreds of dollars...";
-	name = "Unique green package"
-	},
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior)
 "kzp" = (
@@ -42200,6 +42165,16 @@
 	},
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior)
+"lIA" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/space/basic,
+/area/vtm/interior/millennium_tower/f4)
 "lIB" = (
 /turf/open/misc/grass)
 "lID" = (
@@ -43752,6 +43727,11 @@
 	},
 /turf/closed/indestructible/the_matrix,
 /area/vtm)
+"meI" = (
+/obj/effect/decal/cleanable/litter,
+/obj/item/food/grown/cannabis,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/sewer)
 "meJ" = (
 /obj/structure/chair/sofa/corp/left,
 /turf/open/floor/wood/smooth,
@@ -44513,6 +44493,9 @@
 	},
 /turf/open/floor/city/clinic,
 /area/vtm/interior/clinic)
+"mqL" = (
+/turf/open/space/basic,
+/area/vtm/interior/millennium_tower/f4)
 "mqR" = (
 /obj/effect/landmark/start/darkpack/citizen/club_worker,
 /turf/open/floor/plating/sidewalk/rich,
@@ -49498,6 +49481,10 @@
 "nGZ" = (
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/trujah)
+"nHd" = (
+/obj/item/cigarette/pipe/crackpipe,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/sewer)
 "nHe" = (
 /obj/item/storage/fancy/cigarettes/cigpack_robust,
 /obj/effect/decal/cleanable/litter,
@@ -51060,12 +51047,13 @@
 /turf/open/floor/city/plating_mono)
 "obq" = (
 /obj/structure/table,
-/obj/item/food/grown/cannabis{
-	desc = "Green and smelly... It's a special one, maybe costs hundreds of dollars...";
-	name = "Unique green package"
-	},
 /obj/item/vamp/keys/hack,
 /obj/structure/extinguisher_cabinet/directional/north,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
 /turf/open/floor/city/industrial,
 /area/vtm/interior/nosferatu_office)
 "obr" = (
@@ -52532,6 +52520,9 @@
 	},
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior)
+"ovw" = (
+/turf/open/floor/plating/sidewalkalt,
+/area/space)
 "ovy" = (
 /obj/structure/closet/crate/dumpster,
 /turf/open/floor/plating/sidewalk/poor,
@@ -59425,12 +59416,6 @@
 /obj/structure/table/wood/fancy/royalblack,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/millennium_tower/f4)
-"qiY" = (
-/obj/structure/table/wood/fancy/red,
-/obj/item/blood_hunt,
-/obj/effect/turf_decal/bot_red,
-/turf/open/space/basic,
-/area/vtm/interior/millennium_tower/f4)
 "qja" = (
 /obj/structure/chair/office/light{
 	dir = 1
@@ -63346,6 +63331,12 @@
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights/old)
+"rkG" = (
+/obj/structure/table/wood/fancy/red,
+/obj/item/blood_hunt,
+/obj/effect/turf_decal/bot_red,
+/turf/open/space/basic,
+/area/vtm/interior/millennium_tower/f4)
 "rkI" = (
 /obj/structure/vampdoor/old,
 /turf/open/floor/carpet/darkpack/greengold,
@@ -67430,6 +67421,7 @@
 /turf/open/floor/plating/sidewalk)
 "spR" = (
 /obj/structure/table,
+/obj/item/food/drug/meth_crystal,
 /turf/open/floor/plating,
 /area/vtm/interior)
 "spW" = (
@@ -67672,51 +67664,11 @@
 /area/vtm/interior/cog/caern)
 "ssM" = (
 /obj/structure/closet/crate/large,
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
-/obj/item/food/grown/cannabis{
-	cost = 30;
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
-	},
+/obj/item/cigarette/pipe/crackpipe,
+/obj/item/cigarette/pipe/crackpipe,
+/obj/item/cigarette/pipe/crackpipe,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/setite/basement)
 "ssN" = (
@@ -68637,10 +68589,6 @@
 /obj/item/newspaper,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/interior/church)
-"sFF" = (
-/obj/structure/lamppost/sidewalk,
-/turf/open/floor/plating/sidewalk,
-/area/space)
 "sFX" = (
 /obj/darkpack_car/track,
 /obj/structure/closet/cardboard,
@@ -71176,9 +71124,6 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/hotel)
-"tss" = (
-/turf/closed/wall/vampwall/old,
-/area/space)
 "tsv" = (
 /obj/machinery/light/small/red{
 	dir = 8;
@@ -81849,6 +81794,7 @@
 /area/vtm/interior)
 "wqZ" = (
 /obj/item/watch,
+/obj/item/food/drug/meth_crystal,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "wrw" = (
@@ -83894,6 +83840,15 @@
 /obj/vehicle/ridden/wheelchair,
 /turf/open/floor/city/plating,
 /area/vtm/interior/clinic)
+"wUj" = (
+/obj/effect/turf_decal/bordur{
+	dir = 4
+	},
+/obj/effect/turf_decal/bordur{
+	dir = 8
+	},
+/turf/open/floor/plating/asphalt,
+/area/space)
 "wUk" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/wood/smooth/old,
@@ -84128,6 +84083,9 @@
 /obj/structure/chair/wood,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
+"wXm" = (
+/turf/closed/wall/vampwall/old,
+/area/space)
 "wXp" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
@@ -85425,9 +85383,6 @@
 /obj/effect/turf_decal/asphaltline/alt,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/financialdistrict)
-"xqx" = (
-/turf/open/floor/plating/sidewalk,
-/area/space)
 "xqz" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -85561,14 +85516,13 @@
 /obj/structure/closet/crate/bin,
 /obj/item/trash/sosjerky,
 /obj/item/bong,
-/obj/item/food/grown/cannabis,
-/obj/item/food/grown/cannabis{
-	pixel_x = 10;
-	pixel_y = 3
-	},
-/obj/item/food/grown/cannabis,
 /obj/item/food/meat/slab/rawcrab,
 /obj/item/food/meat/slab/rawcrab,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/northbeach)
 "xrV" = (
@@ -87327,6 +87281,20 @@
 /obj/structure/platform/lowwall/rich/old,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/glasswalker)
+"xRU" = (
+/obj/effect/turf_decal/siding/wideplating/dark{
+	dir = 9
+	},
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 16
+	},
+/obj/structure/railing{
+	dir = 8;
+	pixel_y = 2
+	},
+/turf/open/space/basic,
+/area/vtm/interior/millennium_tower/f4)
 "xRX" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -107640,7 +107608,7 @@ veN
 aVm
 bFo
 krR
-vvN
+meI
 aVm
 veN
 aVm
@@ -107896,7 +107864,7 @@ gHT
 rUI
 aVm
 wqZ
-bFo
+nHd
 veN
 xvy
 rUI
@@ -362669,7 +362637,7 @@ van
 gZL
 dhc
 iMZ
-amB
+kfU
 uyr
 uyr
 dhc
@@ -363697,12 +363665,12 @@ wtE
 gZL
 dhc
 iMZ
-cai
+ffT
 uyr
 uyr
 uyr
 uyr
-qiY
+rkG
 uyr
 dhc
 dhc
@@ -364471,9 +364439,9 @@ iMZ
 tBC
 fqO
 cXo
-jTB
+xRU
 qde
-fJN
+lIA
 uyr
 dhc
 dhc
@@ -364728,9 +364696,9 @@ iMZ
 jjs
 cXo
 cXo
-aVo
-bjg
-bjg
+dIu
+mqL
+mqL
 uyr
 dhc
 dhc
@@ -364985,9 +364953,9 @@ iMZ
 baH
 uBg
 cXo
-cqa
-fYS
-fYS
+eXF
+fvl
+fvl
 uyr
 dhc
 dhc
@@ -389667,12 +389635,12 @@ oNw
 oNw
 oNw
 oNw
-tss
-tss
-tss
-tss
-tss
-tss
+wXm
+wXm
+wXm
+wXm
+wXm
+wXm
 oNw
 dhc
 dhc
@@ -389920,12 +389888,12 @@ dhc
 oNw
 oNw
 oNw
-tss
-tss
-tss
-tss
-bYn
-eBC
+wXm
+wXm
+wXm
+wXm
+jik
+iyk
 tlg
 lvz
 roh
@@ -390175,14 +390143,14 @@ dhc
 dhc
 dhc
 oNw
-tss
-tss
-iLf
-iWc
-eOj
-bYn
-sFF
-xqx
+wXm
+wXm
+dwD
+bbB
+ovw
+jik
+iLs
+eOd
 tBX
 lvz
 vYI
@@ -390432,13 +390400,13 @@ dhc
 dhc
 dhc
 oNw
-iLf
+dwD
 sVM
 xtD
-fkj
-eOj
-bYn
-hhS
+fBy
+ovw
+jik
+wUj
 qFJ
 ikV
 oDV
@@ -390689,11 +390657,11 @@ dhc
 dhc
 dhc
 oNw
-tss
-tss
-iLf
-iWc
-eOj
+wXm
+wXm
+dwD
+bbB
+ovw
 iBg
 fin
 tBX
