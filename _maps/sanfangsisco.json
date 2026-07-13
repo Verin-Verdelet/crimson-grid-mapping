@@ -89,6 +89,6 @@
 		}
 	},
 	"max_npcs": 60,
-	"umbra_map_path": "map_files/Vampire/san_fangsisco_umbra",
-	"umbra_map_file": "san_fangsisco_umbra.dmm"
+	"umbra_map_path": "map_files/Vampire/san_fangsisco",
+	"umbra_map_file": "sanfangsisco_umbra.dmm"
 }
