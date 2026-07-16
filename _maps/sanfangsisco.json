@@ -44,56 +44,6 @@
 			"Baseturf": "/turf/open/misc/dirt/vamp"
 		}
 	],
-	"job_changes": {
-		"Graveyard Keeper": {
-			"spawn_positions": 0,
-			"total_positions": 0
-		},
-		"Street Janitor": {
-			"spawn_positions": 4,
-			"total_positions": 4
-		},
-		"Taxi Driver": {
-			"spawn_positions": 0,
-			"total_positions": 0
-		},
-		"Sweeper": {
-			"spawn_positions": 2,
-			"total_positions": 2
-		},
-		"Brusier": {
-			"spawn_positions": 4,
-			"total_positions": 4
-		},
-		"Tapster": {
-			"spawn_positions": 0,
-			"total_positions": 0
-		},
-		"Priest": {
-			"spawn_positions": 0,
-			"total_positions": 0
-		},
-		"Doctor": {
-			"spawn_positions": 3,
-			"total_positions": 3
-		},
-		"La Squadra": {
-			"spawn_positions": 5,
-			"total_positions": 5
-		},
-		"La Famiglia": {
-			"spawn_positions": 5,
-			"total_positions": 5
-		},
-		"Club Worker": {
-			"spawn_positions": 0,
-			"total_positions": 0
-		},
-		"Emergency Dispatcher": {
-			"spawn_positions": 1,
-			"total_positions": 1
-		}
-	},
 	"max_npcs": 60,
 	"umbra_map_path": "map_files/Vampire/san_fangsisco",
 	"umbra_map_file": "sanfangsisco_umbra.dmm"
