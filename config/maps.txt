@@ -59,7 +59,6 @@ endmap
 endmap
 
 map sanfangsisco
-        minplayers 20
         votable
         default
 endmap
