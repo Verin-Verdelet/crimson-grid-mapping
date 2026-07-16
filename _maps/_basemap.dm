@@ -13,15 +13,15 @@
 #endif
 
 #ifndef LOWMEMORYMODE
-	#ifdef ALL_MAPS
-		// DARKPACK EDIT CHANGE START
-		#include "map_files\Vampire\westfield_mall\westfield_mall.dmm"
-		#include "map_files\Vampire\runtimetown.dmm"
-		#include "map_files\debug\multiz.dmm"
-		#include "map_files\debug\runtimestation.dmm"
-		// DARKPACK EDIT CHANGE END
-	#endif
-	#ifdef ALL_TEMPLATES
-		#include "templates.dm"
-	#endif
-#endif
+    #ifdef ALL_MAPS
+        // DARKPACK EDIT CHANGE START
+        #include "map_files\Vampire\san_fangsisco\sanfangsisco.dmm" // CRIMSON EDIT - Map
+        #include "map_files\Vampire\westfield_mall\westfield_mall.dmm"
+        #include "map_files\Vampire\runtimetown.dmm"
+        #include "map_files\debug\multiz.dmm"
+        #include "map_files\debug\runtimestation.dmm"
+        // DARKPACK EDIT CHANGE END
+    #endif
+    #ifdef ALL_TEMPLATES
+        #include "templates.dm"
+    #endif
