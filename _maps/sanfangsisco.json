@@ -36,6 +36,12 @@
 		{
 			"Down": -1,
 			"Baseturf": "/turf/open/openspace"
+		},
+		{
+			"Baseturf": "/turf/open/openspace"
+		},
+		{
+			"Baseturf": "/turf/open/misc/dirt/vamp"
 		}
 	],
 	"job_changes": {
