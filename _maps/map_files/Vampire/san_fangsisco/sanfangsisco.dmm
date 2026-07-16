@@ -13771,8 +13771,6 @@
 "dZF" = (
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police/upstairs)
-"dZZ" = (
-/turf/open/floor/plating/sidewalk)
 "ead" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 10
@@ -31805,13 +31803,6 @@
 "jtC" = (
 /obj/item/ammo_box/darkpack/c556/incendiary,
 /obj/structure/guncase,
-/obj/item/gun/ballistic/automatic/darkpack/ar15{
-	cost = 700;
-	desc = "This rifle has an official hunting license and 'supposed' modifications. The underclass should keep their heads down.";
-	masquerade_violating = 0;
-	name = "Licensed AR-15 Carbine";
-	renamedByPlayer = 1
-	},
 /obj/item/ammo_box/magazine/darkpack556,
 /obj/item/ammo_box/magazine/darkpack556,
 /obj/item/ammo_box/magazine/darkpack556,
@@ -31821,6 +31812,7 @@
 	open = 0
 	},
 /obj/item/wirecutters,
+/obj/item/gun/ballistic/automatic/darkpack/ar15,
 /turf/open/floor/carpet/purple,
 /area/vtm/interior/millennium_tower/ventrue)
 "jtE" = (
@@ -54118,8 +54110,6 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/city/plating_stone,
 /area/vtm/outside/park)
-"pSE" = (
-/turf/open/openspace)
 "pSO" = (
 /obj/structure/table/glass{
 	density = 0
@@ -72454,10 +72444,6 @@
 	},
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/millennium_tower)
-"vnu" = (
-/turf/open/space/basic,
-/turf/closed/wall/vampwall/rich/old,
-/area/vtm/interior/cog/pantry)
 "vnJ" = (
 /obj/structure/trad{
 	pixel_y = 32
@@ -78515,8 +78501,6 @@
 /obj/structure/coclock/grandpa,
 /turf/open/floor/carpet/green,
 /area/vtm/interior/wyrm_corrupted)
-"xev" = (
-/turf/closed/wall/vampwall/rich/old)
 "xeC" = (
 /obj/machinery/light/small/red/directional/north,
 /obj/machinery/light/small/red/directional/west,
@@ -161299,7 +161283,7 @@ mJf
 oqU
 hSy
 hSy
-vnu
+vEB
 ftp
 qId
 hXm
@@ -161312,7 +161296,7 @@ hXm
 hXm
 qLs
 qLs
-vnu
+vEB
 kSs
 atu
 atu
@@ -164392,7 +164376,7 @@ qLs
 wcC
 bkY
 rei
-vnu
+vEB
 atu
 atu
 atu
@@ -165494,10 +165478,10 @@ hgv
 hgv
 hgv
 hgv
-xev
-xev
-xev
-xev
+vhv
+vhv
+vhv
+vhv
 rgV
 rgV
 rgV
@@ -165751,10 +165735,10 @@ dvN
 dvN
 dvN
 dvN
-xev
-dZZ
-dZZ
-dZZ
+vhv
+qHD
+qHD
+qHD
 qIX
 qIX
 qIX
@@ -166008,9 +165992,9 @@ qHD
 qHD
 qHD
 tND
-xev
-pSE
-dZZ
+vhv
+ntq
+qHD
 fYI
 fYI
 fYI
