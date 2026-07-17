@@ -21518,10 +21518,6 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
-"gpS" = (
-/obj/vampire_computer,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/outside/fishermanswharf/lower)
 "gpX" = (
 /obj/structure/fluff/beach_umbrella/security,
 /turf/open/misc/beach/vamp,
@@ -43097,6 +43093,12 @@
 /obj/item/restraints/handcuffs,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/giovanni/basement)
+"mRf" = (
+/obj/structure/sign/city/police_department{
+	pixel_x = -8
+	},
+/turf/closed/wall/vampwall/market,
+/area/vtm/interior/police/morgue)
 "mRg" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/city/bacotell,
@@ -67633,12 +67635,6 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/interior/millennium_tower)
-"uag" = (
-/obj/structure/sign/city/police_department{
-	pixel_x = -8
-	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/police/upstairs)
 "uan" = (
 /obj/effect/turf_decal/bordur{
 	dir = 6
@@ -156620,7 +156616,7 @@ oWV
 gSI
 oWV
 oWV
-gpS
+oWV
 oWV
 dje
 pOb
@@ -198181,7 +198177,7 @@ jlv
 jlv
 jlv
 jlv
-xEa
+tzw
 xEa
 iFP
 twl
@@ -266819,8 +266815,8 @@ hJo
 fOK
 fOK
 fOK
-hJo
-uag
+mRf
+dZF
 dZF
 eKA
 mDG
