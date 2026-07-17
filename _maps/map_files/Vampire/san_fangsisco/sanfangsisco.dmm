@@ -5409,8 +5409,8 @@
 /obj/structure/vampdoor/wood{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/door/access/npc,
 /obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/claimable,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior)
 "bBC" = (
@@ -11196,11 +11196,11 @@
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/tzimisce_manor)
 "dlM" = (
-/obj/machinery/light/red/directional/south,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/personal,
+/obj/machinery/light/red/directional/north,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "dlZ" = (
@@ -15573,8 +15573,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "eFq" = (
-/obj/machinery/light/red/directional/south,
 /obj/structure/closet/secure_closet/personal,
+/obj/machinery/light/red/directional/north,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "eFt" = (
@@ -20556,10 +20556,8 @@
 /area/vtm/interior/sewer/nosferatu_town)
 "gbP" = (
 /obj/effect/turf_decal/siding/white,
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/turf/open/floor/city/plating_mono,
+/obj/structure/transport/linear/public,
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/millennium_tower/f2)
 "gbT" = (
 /obj/effect/turf_decal/siding/white,
@@ -23143,6 +23141,7 @@
 	lockpick_difficulty = 16;
 	name = "Shady Laundromat door"
 	},
+/obj/effect/mapping_helpers/door/access/claimable,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/interior)
 "gOG" = (
@@ -23402,10 +23401,10 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior/church)
 "gSa" = (
-/obj/machinery/light/red/directional/north,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
+/obj/machinery/light/red/directional/south,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "gSg" = (
@@ -24073,13 +24072,8 @@
 /area/vtm/interior/church/staff)
 "hcq" = (
 /obj/effect/turf_decal/siding/white,
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/obj/machinery/door/airlock/elevator/multi_tile{
-	transport_linked_id = "DebugElevator3"
-	},
-/turf/open/floor/city/plating_mono,
+/obj/machinery/door/airlock/elevator/multi_tile,
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/millennium_tower/f4)
 "hcs" = (
 /obj/effect/decal/cleanable/litter,
@@ -25115,10 +25109,7 @@
 /area/vtm/interior/sewer)
 "hto" = (
 /obj/effect/turf_decal/siding/white,
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/turf/open/floor/city/plating_mono,
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/millennium_tower/f3)
 "htp" = (
 /obj/structure/bed/medical/emergency,
@@ -31372,12 +31363,6 @@
 /obj/machinery/photocopier/prebuilt,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/millennium_tower)
-"jrC" = (
-/obj/structure/sign/city/hotel{
-	dir = 1
-	},
-/turf/open/floor/plating/sidewalk,
-/area/vtm/outside/ghetto)
 "jrE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -34010,13 +33995,9 @@
 /area/vtm/interior/giovanni)
 "kfN" = (
 /obj/effect/turf_decal/siding/white,
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/obj/machinery/door/airlock/elevator/multi_tile{
-	transport_linked_id = "DebugElevator3"
-	},
-/turf/open/floor/city/plating_mono,
+/obj/structure/transport/linear/public,
+/obj/machinery/door/airlock/elevator/multi_tile,
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/millennium_tower/f2)
 "kfO" = (
 /obj/structure/chair/stool/bar,
@@ -34112,8 +34093,8 @@
 	dir = 1
 	},
 /obj/structure/vampdoor/wood,
-/obj/effect/mapping_helpers/door/access/npc,
 /obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/claimable,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior)
 "khQ" = (
@@ -37900,13 +37881,9 @@
 /area/vtm/interior/cog/caern)
 "lnN" = (
 /obj/effect/turf_decal/siding/white,
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/obj/machinery/door/airlock/elevator/multi_tile{
-	transport_linked_id = "DebugElevator3"
-	},
-/turf/open/floor/city/plating_mono,
+/obj/structure/transport/linear/public,
+/obj/machinery/door/airlock/elevator/multi_tile,
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/millennium_tower)
 "lnX" = (
 /obj/structure/table/wood,
@@ -38329,11 +38306,11 @@
 /obj/structure/vampdoor/wood{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/door/access/npc,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/door/access/claimable,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior)
 "lvF" = (
@@ -41575,10 +41552,8 @@
 /area/vtm)
 "mvy" = (
 /obj/effect/turf_decal/siding/white,
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/turf/open/floor/city/plating_mono,
+/obj/structure/transport/linear/public,
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/millennium_tower/f4)
 "mvM" = (
 /obj/structure/flora/bush/fullgrass/style_random,
@@ -43122,13 +43097,6 @@
 /obj/item/restraints/handcuffs,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/giovanni/basement)
-"mRf" = (
-/obj/structure/sign/city/hotel{
-	dir = 1
-	},
-/obj/effect/turf_decal/bordur,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/outside/ghetto)
 "mRg" = (
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/city/bacotell,
@@ -59929,8 +59897,8 @@
 "rIq" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/wood,
-/obj/effect/mapping_helpers/door/access/npc,
 /obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/claimable,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/interior)
 "rIu" = (
@@ -66840,14 +66808,11 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "tLO" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 4
-	},
 /obj/structure/vampdoor/wood{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/door/access/npc,
 /obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/claimable,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior)
 "tLS" = (
@@ -71473,8 +71438,8 @@
 "vhu" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/wood,
-/obj/effect/mapping_helpers/door/access/npc,
 /obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/claimable,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior)
 "vhv" = (
@@ -74316,10 +74281,8 @@
 /area/vtm/interior/millennium_tower/ventrue)
 "wah" = (
 /obj/effect/turf_decal/siding/white,
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/turf/open/floor/city/plating_mono,
+/obj/structure/transport/linear/public,
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/millennium_tower)
 "wav" = (
 /obj/structure/vampdoor/wood{
@@ -78009,13 +77972,8 @@
 /area/vtm/interior/chantry)
 "xgN" = (
 /obj/effect/turf_decal/siding/white,
-/obj/effect/turf_decal/siding/white{
-	dir = 1
-	},
-/obj/machinery/door/airlock/elevator/multi_tile{
-	transport_linked_id = "DebugElevator3"
-	},
-/turf/open/floor/city/plating_mono,
+/obj/machinery/door/airlock/elevator/multi_tile,
+/turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/millennium_tower/f3)
 "xgR" = (
 /obj/effect/turf_decal/siding/wood,
@@ -81192,17 +81150,14 @@
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/bianchiBank)
 "ydF" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 4
-	},
 /obj/effect/turf_decal/bordur{
 	dir = 9
 	},
 /obj/structure/vampdoor/wood{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/door/access/npc,
 /obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/claimable,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior)
 "ydH" = (
@@ -81329,8 +81284,8 @@
 	dir = 1
 	},
 /obj/structure/vampdoor/wood,
-/obj/effect/mapping_helpers/door/access/npc,
 /obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/claimable,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto)
 "yfe" = (
@@ -201118,7 +201073,7 @@ iFP
 afe
 fkd
 fkd
-mRf
+iBB
 tEw
 rsh
 tEw
@@ -202686,7 +202641,7 @@ fkd
 fkd
 fkd
 fkd
-jrC
+fkd
 fkd
 ruj
 fkd
@@ -307795,7 +307750,7 @@ wes
 xgN
 ned
 ned
-wfY
+poi
 cUO
 kno
 kno
@@ -308052,7 +308007,7 @@ wes
 hto
 ned
 ned
-poi
+wfY
 cUO
 cUO
 cUO
@@ -310098,7 +310053,7 @@ pOu
 ijj
 ijj
 szD
-fRi
+hBy
 ijj
 ijj
 dbD
@@ -310108,7 +310063,7 @@ ciR
 sQu
 ned
 ned
-wfY
+poi
 cUO
 cUO
 cUO
@@ -310365,7 +310320,7 @@ ciR
 sQu
 ned
 ned
-poi
+wfY
 cUO
 clY
 mvp
@@ -310871,7 +310826,7 @@ ijj
 szD
 eFq
 ijj
-hBy
+fRi
 aJd
 ijj
 ijj
@@ -312411,9 +312366,9 @@ aJd
 vGx
 vGx
 vGx
-fRi
-ijj
 hBy
+ijj
+fRi
 vGx
 vGx
 vGx
