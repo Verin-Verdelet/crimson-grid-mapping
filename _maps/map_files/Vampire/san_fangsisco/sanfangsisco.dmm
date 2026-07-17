@@ -11196,11 +11196,11 @@
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/tzimisce_manor)
 "dlM" = (
+/obj/machinery/light/red/directional/south,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/personal,
-/obj/machinery/light/red/directional/north,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "dlZ" = (
@@ -15573,8 +15573,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "eFq" = (
+/obj/machinery/light/red/directional/south,
 /obj/structure/closet/secure_closet/personal,
-/obj/machinery/light/red/directional/north,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "eFt" = (
@@ -20556,8 +20556,10 @@
 /area/vtm/interior/sewer/nosferatu_town)
 "gbP" = (
 /obj/effect/turf_decal/siding/white,
-/obj/structure/transport/linear/public,
-/turf/open/floor/plating/elevatorshaft,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f2)
 "gbT" = (
 /obj/effect/turf_decal/siding/white,
@@ -23400,10 +23402,10 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior/church)
 "gSa" = (
+/obj/machinery/light/red/directional/north,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
-/obj/machinery/light/red/directional/south,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "gSg" = (
@@ -24071,8 +24073,13 @@
 /area/vtm/interior/church/staff)
 "hcq" = (
 /obj/effect/turf_decal/siding/white,
-/obj/machinery/door/airlock/elevator/multi_tile,
-/turf/open/floor/plating/elevatorshaft,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/machinery/door/airlock/elevator/multi_tile{
+	transport_linked_id = "DebugElevator3"
+	},
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f4)
 "hcs" = (
 /obj/effect/decal/cleanable/litter,
@@ -25108,7 +25115,10 @@
 /area/vtm/interior/sewer)
 "hto" = (
 /obj/effect/turf_decal/siding/white,
-/turf/open/floor/plating/elevatorshaft,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "htp" = (
 /obj/structure/bed/medical/emergency,
@@ -34000,9 +34010,13 @@
 /area/vtm/interior/giovanni)
 "kfN" = (
 /obj/effect/turf_decal/siding/white,
-/obj/structure/transport/linear/public,
-/obj/machinery/door/airlock/elevator/multi_tile,
-/turf/open/floor/plating/elevatorshaft,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/machinery/door/airlock/elevator/multi_tile{
+	transport_linked_id = "DebugElevator3"
+	},
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f2)
 "kfO" = (
 /obj/structure/chair/stool/bar,
@@ -37886,9 +37900,13 @@
 /area/vtm/interior/cog/caern)
 "lnN" = (
 /obj/effect/turf_decal/siding/white,
-/obj/structure/transport/linear/public,
-/obj/machinery/door/airlock/elevator/multi_tile,
-/turf/open/floor/plating/elevatorshaft,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/machinery/door/airlock/elevator/multi_tile{
+	transport_linked_id = "DebugElevator3"
+	},
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower)
 "lnX" = (
 /obj/structure/table/wood,
@@ -41557,8 +41575,10 @@
 /area/vtm)
 "mvy" = (
 /obj/effect/turf_decal/siding/white,
-/obj/structure/transport/linear/public,
-/turf/open/floor/plating/elevatorshaft,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f4)
 "mvM" = (
 /obj/structure/flora/bush/fullgrass/style_random,
@@ -74296,8 +74316,10 @@
 /area/vtm/interior/millennium_tower/ventrue)
 "wah" = (
 /obj/effect/turf_decal/siding/white,
-/obj/structure/transport/linear/public,
-/turf/open/floor/plating/elevatorshaft,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower)
 "wav" = (
 /obj/structure/vampdoor/wood{
@@ -77987,8 +78009,13 @@
 /area/vtm/interior/chantry)
 "xgN" = (
 /obj/effect/turf_decal/siding/white,
-/obj/machinery/door/airlock/elevator/multi_tile,
-/turf/open/floor/plating/elevatorshaft,
+/obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/machinery/door/airlock/elevator/multi_tile{
+	transport_linked_id = "DebugElevator3"
+	},
+/turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "xgR" = (
 /obj/effect/turf_decal/siding/wood,
@@ -307768,7 +307795,7 @@ wes
 xgN
 ned
 ned
-poi
+wfY
 cUO
 kno
 kno
@@ -308025,7 +308052,7 @@ wes
 hto
 ned
 ned
-wfY
+poi
 cUO
 cUO
 cUO
@@ -310071,7 +310098,7 @@ pOu
 ijj
 ijj
 szD
-hBy
+fRi
 ijj
 ijj
 dbD
@@ -310081,7 +310108,7 @@ ciR
 sQu
 ned
 ned
-poi
+wfY
 cUO
 cUO
 cUO
@@ -310338,7 +310365,7 @@ ciR
 sQu
 ned
 ned
-wfY
+poi
 cUO
 clY
 mvp
@@ -310844,7 +310871,7 @@ ijj
 szD
 eFq
 ijj
-fRi
+hBy
 aJd
 ijj
 ijj
@@ -312384,9 +312411,9 @@ aJd
 vGx
 vGx
 vGx
-hBy
-ijj
 fRi
+ijj
+hBy
 vGx
 vGx
 vGx
