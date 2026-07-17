@@ -2212,6 +2212,7 @@
 /obj/structure/chair/sofa/right{
 	dir = 8
 	},
+/obj/effect/landmark/start/darkpack/sabbat/pack,
 /turf/open/misc/beach/vamp,
 /area/vtm/interior/sabbat_lair)
 "aGO" = (
@@ -20076,6 +20077,7 @@
 /area/vtm/outside/chinatown)
 "fUi" = (
 /obj/structure/chair/sofa/middle,
+/obj/effect/landmark/start/darkpack/sabbat/pack,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "fUk" = (
@@ -21518,6 +21520,10 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
+"gpS" = (
+/obj/effect/landmark/start/darkpack/sabbat/pack,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sabbat_lair)
 "gpX" = (
 /obj/structure/fluff/beach_umbrella/security,
 /turf/open/misc/beach/vamp,
@@ -27391,6 +27397,7 @@
 /area/vtm/interior/museum)
 "ieW" = (
 /obj/structure/chair/sofa/left,
+/obj/effect/landmark/start/darkpack/sabbat/pack,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "ieZ" = (
@@ -31359,6 +31366,10 @@
 /obj/machinery/photocopier/prebuilt,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/millennium_tower)
+"jrC" = (
+/obj/effect/landmark/start/darkpack/sabbat/pack,
+/turf/open/floor/plating/stone,
+/area/vtm/interior/sabbat_lair)
 "jrE" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -32943,6 +32954,7 @@
 "jPP" = (
 /obj/structure/bed,
 /obj/item/bedsheet/pirate,
+/obj/effect/landmark/start/darkpack/sabbat/pack,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "jPU" = (
@@ -57863,6 +57875,7 @@
 /obj/structure/chair/sofa/middle{
 	dir = 4
 	},
+/obj/effect/landmark/start/darkpack/sabbat/pack,
 /turf/open/misc/beach/vamp,
 /area/vtm/interior/sabbat_lair)
 "rcX" = (
@@ -64045,6 +64058,13 @@
 /obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
+"sUe" = (
+/obj/structure/chair/sofa/middle{
+	dir = 1
+	},
+/obj/effect/landmark/start/darkpack/sabbat/pack,
+/turf/open/misc/beach/vamp,
+/area/vtm/interior/sabbat_lair)
 "sUi" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plating/sidewalk,
@@ -64944,6 +64964,7 @@
 "tim" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
+/obj/effect/landmark/start/darkpack/sabbat/pack,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "tio" = (
@@ -67635,6 +67656,10 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/interior/millennium_tower)
+"uag" = (
+/obj/effect/landmark/start/darkpack/sabbat/ductus,
+/turf/open/floor/carpet/darkpack/redsilver,
+/area/vtm/interior/sabbat_lair)
 "uan" = (
 /obj/effect/turf_decal/bordur{
 	dir = 6
@@ -73720,6 +73745,7 @@
 /area/vtm/interior/tzimisce_sanctum)
 "vSS" = (
 /obj/structure/chair/sofa/right,
+/obj/effect/landmark/start/darkpack/sabbat/pack,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "vSV" = (
@@ -148110,7 +148136,7 @@ lac
 wQm
 tSL
 pfN
-xBH
+sUe
 pfN
 pfN
 qnh
@@ -148152,7 +148178,7 @@ ovT
 jED
 tFI
 oxf
-oxf
+uag
 oxf
 kuj
 oxf
@@ -148666,7 +148692,7 @@ ovT
 jED
 wZu
 oxf
-oxf
+uag
 oxf
 wZu
 oxf
@@ -148909,11 +148935,11 @@ fUi
 dWq
 aBe
 ksL
+gpS
 iKD
+jrC
 iKD
-fcS
-iKD
-iKD
+gpS
 iKD
 iKD
 iKD
