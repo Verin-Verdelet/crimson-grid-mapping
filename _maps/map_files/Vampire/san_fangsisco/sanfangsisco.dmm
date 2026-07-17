@@ -11196,11 +11196,11 @@
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/tzimisce_manor)
 "dlM" = (
-/obj/machinery/light/red/directional/south,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/personal,
+/obj/machinery/light/red/directional/north,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "dlZ" = (
@@ -15573,8 +15573,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "eFq" = (
-/obj/machinery/light/red/directional/south,
 /obj/structure/closet/secure_closet/personal,
+/obj/machinery/light/red/directional/north,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "eFt" = (
@@ -23400,10 +23400,10 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior/church)
 "gSa" = (
-/obj/machinery/light/red/directional/north,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
+/obj/machinery/light/red/directional/south,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f3)
 "gSg" = (
@@ -307768,7 +307768,7 @@ wes
 xgN
 ned
 ned
-wfY
+poi
 cUO
 kno
 kno
@@ -308025,7 +308025,7 @@ wes
 hto
 ned
 ned
-poi
+wfY
 cUO
 cUO
 cUO
@@ -310071,7 +310071,7 @@ pOu
 ijj
 ijj
 szD
-fRi
+hBy
 ijj
 ijj
 dbD
@@ -310081,7 +310081,7 @@ ciR
 sQu
 ned
 ned
-wfY
+poi
 cUO
 cUO
 cUO
@@ -310338,7 +310338,7 @@ ciR
 sQu
 ned
 ned
-poi
+wfY
 cUO
 clY
 mvp
@@ -310844,7 +310844,7 @@ ijj
 szD
 eFq
 ijj
-hBy
+fRi
 aJd
 ijj
 ijj
@@ -312384,9 +312384,9 @@ aJd
 vGx
 vGx
 vGx
-fRi
-ijj
 hBy
+ijj
+fRi
 vGx
 vGx
 vGx
