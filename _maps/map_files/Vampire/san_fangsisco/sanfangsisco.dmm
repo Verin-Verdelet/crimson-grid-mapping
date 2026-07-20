@@ -1843,6 +1843,7 @@
 /area/vtm/outside/financialdistrict)
 "aBe" = (
 /obj/structure/table/wood/poker,
+/obj/structure/glowshroom/extreme,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sabbat_lair)
 "aBi" = (
@@ -15294,7 +15295,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/giovanni/basement)
 "eAJ" = (
-/obj/structure/glowshroom/medium,
+/obj/structure/glowshroom/extreme,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "eAQ" = (
@@ -28128,7 +28129,7 @@
 /area/vtm/interior/tzimisce_manor)
 "iqV" = (
 /obj/structure/flora/rock/stalagmite,
-/obj/structure/glowshroom/medium,
+/obj/structure/glowshroom/extreme,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "iqY" = (
@@ -34841,9 +34842,8 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior)
 "kss" = (
-/obj/structure/flora/rock/stalagmite,
-/obj/structure/glowshroom/medium,
-/turf/open/floor/plating/rough,
+/obj/structure/flora/rock/darkpack,
+/turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "ksu" = (
 /obj/effect/turf_decal/bordur{
@@ -44811,6 +44811,10 @@
 /obj/item/bouquet,
 /turf/open/misc/dirt,
 /area/vtm/graveyard)
+"nqo" = (
+/obj/structure/glowshroom/extreme,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/sabbat_lair)
 "nqu" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/simple,
@@ -76217,7 +76221,7 @@
 /area/vtm/interior)
 "wBf" = (
 /obj/structure/flora/rock/darkpack,
-/obj/structure/glowshroom/medium,
+/obj/structure/glowshroom/extreme,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "wBi" = (
@@ -148234,18 +148238,18 @@ iKD
 fcS
 fcS
 iKD
-kss
-qnh
+nyu
+nqo
 iKD
 fcS
 iKD
 ovT
 efu
-jKB
+gyq
 fcS
 qnh
 qnh
-jKB
+gyq
 gyq
 ovT
 jED
@@ -149001,8 +149005,8 @@ aoi
 ovT
 jKB
 iKD
-iqV
-qnh
+aoi
+nqo
 qnh
 vSS
 kZH
@@ -149012,10 +149016,10 @@ qnh
 iqV
 fcS
 iKD
-iKD
+eAJ
 iKD
 qnh
-qnh
+nqo
 qnh
 iKD
 ovT
@@ -149530,7 +149534,7 @@ hYY
 jKB
 iKD
 iKD
-wBf
+kss
 iKD
 ovT
 efF
