@@ -156,16 +156,6 @@
 /obj/structure/lamppost/sidewalk,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/ghetto)
-"acq" = (
-/obj/effect/turf_decal/bordur{
-	dir = 1
-	},
-/obj/effect/turf_decal/bordur{
-	dir = 4
-	},
-/obj/structure/roadsign/street,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/outside/fishermanswharf/lower)
 "acy" = (
 /obj/structure/table,
 /obj/item/flashlight/lamp{
@@ -7447,6 +7437,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 1
 	},
+/obj/structure/roadsign/street,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/fishermanswharf/lower)
 "ciA" = (
@@ -10808,12 +10799,13 @@
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/chinatown)
 "dfD" = (
-/obj/effect/turf_decal/bordur{
-	dir = 4
+/obj/effect/turf_decal/bordur/corner{
+	dir = 8
 	},
+/obj/effect/landmark/npcbeacon,
 /obj/structure/roadsign,
-/turf/open/floor/plating/sidewalk/rich,
-/area/vtm/outside/financialdistrict)
+/turf/open/floor/plating/sidewalk,
+/area/vtm/outside/fishermanswharf/lower)
 "dfF" = (
 /obj/transfer_point_vamp{
 	id = 77
@@ -24832,7 +24824,8 @@
 /turf/open/misc/sandy_dirt,
 /area/vtm/interior/bianchiBank)
 "hno" = (
-/obj/effect/turf_decal/bordur,
+/obj/effect/turf_decal/bordur/corner,
+/obj/effect/landmark/npcbeacon,
 /obj/structure/roadsign/street,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/unionsquare)
@@ -74792,13 +74785,6 @@
 "wcT" = (
 /turf/open/openspace,
 /area/vtm/interior/laundromat)
-"wdi" = (
-/obj/effect/turf_decal/bordur{
-	dir = 1
-	},
-/obj/structure/roadsign,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/outside/fishermanswharf/lower)
 "wdq" = (
 /obj/structure/hedge,
 /turf/open/floor/plating/sidewalkalt,
@@ -79961,6 +79947,7 @@
 	dir = 4
 	},
 /obj/effect/landmark/npcbeacon,
+/obj/structure/roadsign,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/financialdistrict)
 "xGm" = (
@@ -163121,7 +163108,7 @@ fHo
 hwp
 jul
 hwp
-bFt
+dfD
 avT
 cNc
 cNc
@@ -163378,7 +163365,7 @@ vox
 hwp
 jul
 hwp
-wdi
+obM
 rqb
 oWV
 oWV
@@ -163635,7 +163622,7 @@ vox
 hwp
 jul
 hwp
-acq
+tiO
 qua
 oWV
 iCo
@@ -180609,7 +180596,7 @@ aDf
 aDf
 hBs
 aDf
-dfD
+aDf
 uEo
 xGg
 oLE
@@ -186966,7 +186953,7 @@ kdy
 kdy
 kdy
 xIj
-wqu
+hno
 fQP
 bVK
 fQP
@@ -187480,7 +187467,7 @@ iog
 iog
 iog
 xsJ
-hno
+mXC
 fQP
 bVK
 fQP
