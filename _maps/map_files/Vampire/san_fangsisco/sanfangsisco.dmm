@@ -32006,10 +32006,6 @@
 /obj/machinery/light/prince/directional/north,
 /turf/open/openspace,
 /area/vtm)
-"jzC" = (
-/obj/effect/mapping_helpers/door/bash_difficulty/eight,
-/turf/open/floor/city/church,
-/area/vtm/interior/church/haven)
 "jzE" = (
 /obj/machinery/grill,
 /turf/open/floor/plating/sidewalk/poor,
@@ -32246,7 +32242,7 @@
 /area/vtm/interior/sewer)
 "jBQ" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = ventrueprim
+	id = "ventrueprim"
 	},
 /obj/structure/platform/lowwall/rich/window,
 /turf/open/floor/plating/rough,
@@ -32526,7 +32522,7 @@
 "jGV" = (
 /obj/effect/decal/wallpaper/paper/darkred/low,
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = sheriffcurtain
+	id = "sheriffcurtain"
 	},
 /obj/structure/platform/lowwall/rich/window/reinforced,
 /turf/open/floor/plating/rough,
@@ -39618,7 +39614,7 @@
 /area/vtm)
 "lNj" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = lasombra
+	id = "lasombra"
 	},
 /obj/structure/platform/lowwall/rich/old/window,
 /turf/open/floor/plating/rough,
@@ -45775,10 +45771,7 @@
 /area/vtm/interior/church/haven)
 "nEs" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/operating{
-	icon = 'code/modules/wod13/props.dmi';
-	icon_state = "computerprince"
-	},
+/obj/machinery/computer/operating,
 /obj/item/circular_saw,
 /turf/open/floor/city/toilet,
 /area/vtm/interior/tzimisce_sanctum)
@@ -51359,7 +51352,7 @@
 /area/vtm/interior/banu/haven)
 "pjT" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = lasombra
+	id = "lasombra"
 	},
 /obj/effect/decal/wallpaper/blue/low,
 /obj/structure/platform/lowwall/rich/old/window,
@@ -56412,7 +56405,7 @@
 /area/vtm/interior/church)
 "qGl" = (
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = sheriffcurtain
+	id = "sheriffcurtain"
 	},
 /obj/structure/platform/lowwall/rich/window/reinforced,
 /turf/open/floor/plating/rough,
@@ -57592,13 +57585,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/bianchiBank)
-"qWc" = (
-/obj/structure/table/wood/fancy/black,
-/obj/machinery/button/curtain{
-	id = lasombraprim
-	},
-/turf/open/floor/city/church,
-/area/vtm/interior/church/haven)
 "qWf" = (
 /obj/structure/chair/sofa/left/brown{
 	dir = 1
@@ -58798,9 +58784,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/hotel)
 "ron" = (
-/obj/structure/curtain/cloth/fancy/mechanical{
-	id = banu
-	},
+/obj/structure/curtain/cloth/fancy/mechanical,
 /obj/structure/platform/lowwall/painted/window/reinforced,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/banu/haven)
@@ -64000,10 +63984,6 @@
 /obj/structure/table/wood/fancy/black,
 /obj/item/paper_bin,
 /obj/item/pen/fountain,
-/obj/machinery/button/curtain{
-	id = lasombraprim;
-	pixel_y = 11
-	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/church/haven)
 "sPp" = (
@@ -68304,7 +68284,7 @@
 	locked = 1;
 	dir = 8
 	},
-/obj/structure/curtain/cloth/fancy,
+/obj/structure/curtain/cloth/fancy/mechanical,
 /obj/effect/mapping_helpers/door/access/banu,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
@@ -69206,10 +69186,6 @@
 	},
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/clinic/haven)
-"uuO" = (
-/obj/effect/mapping_helpers/door/bash_difficulty/eight,
-/turf/open/floor/city/saint,
-/area/vtm/interior/church/haven)
 "uvk" = (
 /obj/structure/chair/pew/right,
 /obj/effect/turf_decal/siding/wood{
@@ -70029,10 +70005,6 @@
 /obj/structure/table/wood/fancy/green,
 /obj/item/paper_bin,
 /obj/item/pen/fountain,
-/obj/machinery/button/curtain{
-	id = banu;
-	pixel_y = 12
-	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/banu/haven)
 "uHh" = (
@@ -72572,9 +72544,7 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/banu/haven)
 "vvx" = (
-/obj/structure/curtain/cloth/fancy/mechanical{
-	id = banu
-	},
+/obj/structure/curtain/cloth/fancy/mechanical,
 /obj/structure/platform/lowwall/painted/window,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/banu/haven)
@@ -74583,7 +74553,7 @@
 /area/vtm/interior/sewer)
 "wag" = (
 /obj/machinery/button/curtain{
-	id = ventrueprim
+	id = "ventrueprim"
 	},
 /obj/structure/table/wood/fancy/royalblue,
 /turf/open/floor/carpet/royalblue,
@@ -75850,9 +75820,6 @@
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/dollar/hundred,
-/obj/machinery/button/curtain{
-	id = sheriffcurtain
-	},
 /turf/open/floor/carpet/black,
 /area/vtm/interior/millennium_tower/f3)
 "wvB" = (
@@ -77281,7 +77248,7 @@
 "wRj" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/machinery/button/curtain{
-	id = lasombra
+	id = "lasombra"
 	},
 /turf/open/floor/city/church,
 /area/vtm/interior/church/haven)
@@ -80738,7 +80705,7 @@
 "xSy" = (
 /obj/effect/decal/wallpaper/gold/low,
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = ventrueprim
+	id = "ventrueprim"
 	},
 /obj/structure/platform/lowwall/rich/window,
 /turf/open/floor/plating/rough,
@@ -290648,7 +290615,7 @@ ntq
 uDd
 pOL
 vzM
-qWc
+ayT
 vzM
 pOL
 uzI
@@ -291432,7 +291399,7 @@ oXh
 uzI
 mhn
 vzM
-jzC
+vzM
 puS
 pkK
 pkK
@@ -291689,7 +291656,7 @@ oXh
 uzI
 mhn
 vzM
-jzC
+vzM
 whl
 hpj
 tkF
@@ -292198,8 +292165,8 @@ kAW
 vzM
 vzM
 uUh
-uuO
-uuO
+pOL
+pOL
 uUh
 vzM
 vzM
