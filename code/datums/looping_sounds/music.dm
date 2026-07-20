@@ -1,8 +1,8 @@
 /datum/looping_sound/local_forecast
 	mid_sounds = list(
-		'sound/music/elevator/robocop-short.ogg' = 1,
+		'sound/music/elevator/deadrisingelevator.ogg' = 1,
 	)
-	mid_length = 61 SECONDS
+	mid_length = 96 SECONDS
 	volume = 20
 	vary = FALSE
 	use_reverb = FALSE
