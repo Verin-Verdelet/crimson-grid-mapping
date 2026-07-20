@@ -29648,7 +29648,7 @@
 	dir = 1
 	},
 /obj/transfer_point_vamp{
-	id = Graveyard4
+	id = "Graveyard4"
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
@@ -39612,7 +39612,7 @@
 /area/vtm/interior/millennium_tower)
 "lNi" = (
 /obj/transfer_point_vamp{
-	id = Graveyard3
+	id = "Graveyard3"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
@@ -64273,7 +64273,7 @@
 /area/vtm/outside/pacificheights/forest)
 "sUs" = (
 /obj/transfer_point_vamp{
-	id = Graveyard2
+	id = "Graveyard2"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm)
@@ -64607,7 +64607,7 @@
 "sZF" = (
 /obj/transfer_point_vamp{
 	name = "Shadowlands Portal";
-	id = Enoch
+	id = "Enoch"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/trujah)
@@ -68530,7 +68530,7 @@
 "ulq" = (
 /obj/effect/turf_decal/bordur,
 /obj/transfer_point_vamp{
-	id = Graveyard1
+	id = "Graveyard1"
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
