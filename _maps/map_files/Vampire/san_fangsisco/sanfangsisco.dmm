@@ -6797,7 +6797,6 @@
 /area/vtm/graveyard/interior)
 "bXK" = (
 /obj/structure/flora/rock/darkpack,
-/obj/structure/glowshroom/extreme,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "bXP" = (
@@ -9538,6 +9537,19 @@
 /obj/machinery/light/prince/directional/east,
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
+"cMc" = (
+/obj/structure/table/wood,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/turf/open/floor/carpet,
+/area/vtm/interior/anarch)
 "cMf" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 8
@@ -25425,6 +25437,9 @@
 /obj/item/vamp/keys/police{
 	name = "Police Consultant keys"
 	},
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/banu/haven)
 "hxx" = (
@@ -34839,6 +34854,13 @@
 /obj/structure/curtain,
 /turf/open/floor/city/toilet,
 /area/vtm/interior)
+"kss" = (
+/obj/effect/turf_decal/bordur{
+	dir = 1
+	},
+/obj/item/radio/headset/darkpack,
+/turf/open/floor/plating/roofwalk,
+/area/vtm)
 "ksu" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -35470,6 +35492,13 @@
 /obj/structure/closet/crate{
 	name = "radio crate"
 	},
+/obj/item/radio/headset/darkpack/police,
+/obj/item/radio/headset/darkpack/police,
+/obj/item/radio/headset/darkpack/police,
+/obj/item/radio/headset/darkpack/police,
+/obj/item/radio/headset/darkpack/police,
+/obj/item/radio/headset/darkpack/police,
+/obj/item/radio/headset/darkpack/police,
 /obj/item/radio/headset/darkpack/police,
 /obj/item/radio/headset/darkpack/police,
 /obj/item/radio/headset/darkpack/police,
@@ -37729,6 +37758,16 @@
 /obj/item/masquerade_contract,
 /obj/item/masquerade_contract,
 /obj/item/vampire_stake,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
 /turf/open/floor/carpet/green,
 /area/vtm/interior/millennium_tower/f3)
 "liW" = (
@@ -63613,6 +63652,14 @@
 /obj/structure/table,
 /obj/item/restraints/handcuffs,
 /obj/machinery/radio_tranceiver/endron,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
 "sHZ" = (
@@ -75837,6 +75884,13 @@
 /obj/structure/table,
 /obj/item/radio/headset/darkpack/police,
 /obj/item/radio/headset/darkpack/police,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
+/obj/item/radio/headset/darkpack,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/clinic)
 "wvx" = (
@@ -76208,6 +76262,7 @@
 /area/vtm/interior)
 "wBf" = (
 /obj/structure/flora/rock/darkpack,
+/obj/structure/glowshroom/extreme,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "wBi" = (
@@ -147971,7 +148026,7 @@ iKD
 iKD
 iKD
 fcS
-bXK
+wBf
 ovT
 gyq
 jPP
@@ -149520,7 +149575,7 @@ hYY
 jKB
 iKD
 iKD
-wBf
+bXK
 iKD
 ovT
 efF
@@ -170025,7 +170080,7 @@ nYY
 gtU
 rMI
 uda
-bGN
+cMc
 kWn
 lMJ
 wsX
@@ -274816,7 +274871,7 @@ kno
 kno
 kno
 qGw
-vMH
+kss
 lTQ
 lTQ
 lTQ
