@@ -12,6 +12,11 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/concrete,
 /area/vtm/outside/park)
+"aao" = (
+/obj/machinery/light/directional/north,
+/obj/machinery/telecomms/allinone/public,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/vjanitor)
 "aas" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/misc/grass,
@@ -182306,7 +182311,7 @@ qGw
 qHD
 qHD
 hOY
-ham
+aao
 mCk
 hUV
 dfZ
