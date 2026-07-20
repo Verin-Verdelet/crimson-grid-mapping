@@ -3,7 +3,7 @@
 		'sound/music/elevator/deadrisingelevator.ogg' = 1,
 	)
 	mid_length = 96 SECONDS
-	volume = 20
+	volume = 50
 	vary = FALSE
 	use_reverb = FALSE
 	direct = TRUE
