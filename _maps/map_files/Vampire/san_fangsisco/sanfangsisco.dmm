@@ -20106,9 +20106,7 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm)
 "fTM" = (
-/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = malkav
-	},
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious,
 /obj/structure/platform/lowwall/painted/window,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic/haven)
@@ -22310,9 +22308,7 @@
 /turf/open/floor/city/gummaguts,
 /area/vtm/interior/techshop)
 "gBp" = (
-/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = lasombraprim
-	},
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious,
 /obj/structure/platform/lowwall/rich/old/window/reinforced,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/church/haven)
@@ -69741,9 +69737,7 @@
 /turf/open/floor/plating/granite,
 /area/vtm/interior/millennium_tower)
 "uDd" = (
-/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
-	id = lasombraprim
-	},
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious,
 /obj/effect/decal/wallpaper/blue/low,
 /obj/structure/platform/lowwall/rich/old/window/reinforced,
 /turf/open/floor/plating/rough,
