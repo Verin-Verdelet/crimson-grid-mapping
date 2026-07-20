@@ -6796,12 +6796,10 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/graveyard/interior)
 "bXK" = (
-/obj/effect/decal/cleanable/trash,
-/obj/the_matrix{
-	alpha = 0
-	},
-/turf/closed/wall/vampwall/rock,
-/area/space)
+/obj/structure/flora/rock/darkpack,
+/obj/structure/glowshroom/extreme,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/sabbat_lair)
 "bXP" = (
 /obj/effect/turf_decal/bordur{
 	dir = 5
@@ -34841,10 +34839,6 @@
 /obj/structure/curtain,
 /turf/open/floor/city/toilet,
 /area/vtm/interior)
-"kss" = (
-/obj/structure/flora/rock/darkpack,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/sabbat_lair)
 "ksu" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
@@ -37411,12 +37405,9 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior)
 "leI" = (
-/obj/effect/decal/cleanable/litter,
-/obj/the_matrix{
-	alpha = 0
-	},
-/turf/closed/wall/vampwall/rock,
-/area/space)
+/obj/structure/glowshroom/extreme,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/sabbat_lair)
 "leK" = (
 /obj/item/reagent_containers/blood,
 /obj/item/reagent_containers/blood,
@@ -44811,10 +44802,6 @@
 /obj/item/bouquet,
 /turf/open/misc/dirt,
 /area/vtm/graveyard)
-"nqo" = (
-/obj/structure/glowshroom/extreme,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/sabbat_lair)
 "nqu" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/simple,
@@ -76221,7 +76208,6 @@
 /area/vtm/interior)
 "wBf" = (
 /obj/structure/flora/rock/darkpack,
-/obj/structure/glowshroom/extreme,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sabbat_lair)
 "wBi" = (
@@ -106517,7 +106503,7 @@ nxc
 nxc
 vRf
 oIa
-bXK
+oIa
 dEK
 oIa
 oIa
@@ -106771,8 +106757,8 @@ xgR
 dth
 nxc
 oIa
-leI
-leI
+oIa
+oIa
 oIa
 oIa
 oIa
@@ -147985,7 +147971,7 @@ iKD
 iKD
 iKD
 fcS
-wBf
+bXK
 ovT
 gyq
 jPP
@@ -148239,7 +148225,7 @@ fcS
 fcS
 iKD
 nyu
-nqo
+leI
 iKD
 fcS
 iKD
@@ -149006,7 +148992,7 @@ ovT
 jKB
 iKD
 aoi
-nqo
+leI
 qnh
 vSS
 kZH
@@ -149019,7 +149005,7 @@ iKD
 eAJ
 iKD
 qnh
-nqo
+leI
 qnh
 iKD
 ovT
@@ -149534,7 +149520,7 @@ hYY
 jKB
 iKD
 iKD
-kss
+wBf
 iKD
 ovT
 efF
