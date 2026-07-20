@@ -6804,6 +6804,13 @@
 /obj/item/knife/vamp,
 /turf/open/floor/plating/concrete,
 /area/vtm/graveyard/interior)
+"bXK" = (
+/obj/effect/decal/cleanable/trash,
+/obj/the_matrix{
+	alpha = 0
+	},
+/turf/closed/wall/vampwall/rock,
+/area/space)
 "bXP" = (
 /obj/effect/turf_decal/bordur{
 	dir = 5
@@ -37410,6 +37417,13 @@
 /obj/structure/coclock,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior)
+"leI" = (
+/obj/effect/decal/cleanable/litter,
+/obj/the_matrix{
+	alpha = 0
+	},
+/turf/closed/wall/vampwall/rock,
+/area/space)
 "leK" = (
 /obj/item/reagent_containers/blood,
 /obj/item/reagent_containers/blood,
@@ -106512,7 +106526,7 @@ nxc
 nxc
 vRf
 oIa
-oIa
+bXK
 dEK
 oIa
 oIa
@@ -106766,8 +106780,8 @@ xgR
 dth
 nxc
 oIa
-oIa
-oIa
+leI
+leI
 oIa
 oIa
 oIa
