@@ -28171,12 +28171,6 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/city/plating_stone,
 /area/vtm/outside/park)
-"ioU" = (
-/obj/structure/table/countertop/bubway,
-/obj/structure/table/countertop/bubway,
-/obj/structure/platform/lowwall/brick,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/cog/pantry)
 "ioV" = (
 /obj/structure/closet,
 /obj/item/vamp/keys/nosferatu,
@@ -32448,7 +32442,6 @@
 "jBz" = (
 /obj/structure/table,
 /obj/item/pen/fourcolor,
-/obj/structure/table,
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/structure/platform/lowwall/rich,
 /turf/open/floor/plating/rough,
@@ -164122,7 +164115,7 @@ hQb
 qLs
 qLs
 rei
-ioU
+ntM
 ntM
 ntM
 ntM
