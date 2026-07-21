@@ -19,23 +19,23 @@ endmap
 
 #map deltastation
 	minplayers 50
-	disabled
+	votable
 endmap
 
 #map icebox
 	minplayers 25
-	disabled
+	votable
 endmap
 
 #map catwalkstation
 	minplayers 25
-	disabled
+	votable
 endmap
 
 #map metastation
 	minplayers 25
 	#voteweight 0.5
-	disabled
+	votable
 	#feedbacklink https://www.youtube.com/watch?v=XG8b7WhANNA
 	#webmap_url https://webmap.affectedarc07.co.uk/maps/tgstation/metastation
 endmap
@@ -43,22 +43,27 @@ endmap
 #map tramstation
 	minplayers 35
 	votable
-        disabled
+    votable
 endmap
 
 #map nebulastation
 	minplayers 35
 	votable
-        disabled
+    votable
 endmap
 
 #map wawastation
 	votable
 	minplayers 40
-        disabled
+    votable
 endmap
 
-map sanfangsisco
+#map westfieldmall
+    votable
+    default
+endmap
+
+#map sanfangsisco
     votable
     default
 endmap
