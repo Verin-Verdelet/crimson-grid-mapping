@@ -17239,7 +17239,7 @@
 "fdj" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 5
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch)
@@ -44612,7 +44612,7 @@
 "nhy" = (
 /obj/machinery/light/directional/west,
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch)
@@ -64772,7 +64772,7 @@
 /obj/machinery/light/directional/west,
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 5
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch)
@@ -67215,6 +67215,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"tGw" = (
+/obj/structure/railing{
+	pixel_y = -2
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/anarch)
 "tGx" = (
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/city/church,
@@ -165457,7 +165463,7 @@ wsX
 aIz
 aIz
 iZB
-uTZ
+tGw
 aFq
 hbj
 hbj
@@ -230234,7 +230240,7 @@ ruG
 ruG
 ruG
 ggk
-ixd
+pnE
 ntq
 ntq
 ntq
@@ -230491,7 +230497,7 @@ kno
 kno
 kno
 vqu
-cEq
+foR
 ntq
 ntq
 ntq
@@ -230748,7 +230754,7 @@ ubr
 rqE
 kno
 kno
-cEq
+foR
 ntq
 ntq
 ntq
