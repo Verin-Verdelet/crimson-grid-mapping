@@ -62239,7 +62239,7 @@
 	},
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "DebugElevator3";
-	preset_destination_names = list("2" = "Finances", "3" = "Fiscal Lounge", "4" = "Private Security", "5" = "Excutive Floor")
+	preset_destination_names = list("3" = "Lobby", "4" = "Fiscal Lounge", "5" = "Private Security", "6" = "Executive Floor")
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/millennium_tower)
