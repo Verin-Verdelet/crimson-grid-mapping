@@ -25866,7 +25866,6 @@
 /area/vtm/interior)
 "hCY" = (
 /obj/structure/table/wood,
-/obj/structure/table/wood,
 /obj/structure/window/reinforced/tinted/spawner/directional/south,
 /turf/open/floor/carpet,
 /area/vtm/interior)
@@ -54727,12 +54726,6 @@
 /obj/effect/turf_decal/siding/white/corner,
 /turf/open/floor/city/plating,
 /area/vtm/interior/strip)
-"qam" = (
-/obj/structure/vampdoor/wood,
-/obj/effect/mapping_helpers/door/access/giovanni,
-/obj/effect/mapping_helpers/door/lock,
-/turf/closed/wall/vampwall/rock,
-/area/vtm/interior/sewer/nosferatu_town)
 "qau" = (
 /obj/structure/chair/pew/right{
 	dir = 4
@@ -64477,11 +64470,6 @@
 /obj/item/food/drug/opium,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/sewer/nosferatu_town)
-"sOe" = (
-/obj/structure/table/wood,
-/obj/structure/table/wood,
-/turf/open/floor/carpet,
-/area/vtm/interior)
 "sOA" = (
 /obj/structure/flora/rock/darkpack_big,
 /obj/structure/ladder/manhole/down,
@@ -65976,11 +65964,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/carpet/green,
 /area/vtm/interior/wyrm_corrupted)
-"tnz" = (
-/obj/structure/table/wood,
-/obj/structure/table/wood,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/laundromat)
 "tnF" = (
 /obj/machinery/light/small/red/dim/directional/east,
 /turf/open/floor/plating/rough/cave,
@@ -66593,11 +66576,6 @@
 /mob/living/basic/pet/cat/darkpack,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
-"twp" = (
-/obj/structure/table/wood,
-/obj/structure/table/wood,
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior)
 "twu" = (
 /obj/effect/decal/wallpaper/grey,
 /turf/closed/wall/vampwall/brick_old,
@@ -98848,7 +98826,7 @@ nxc
 cSf
 nxc
 oIa
-qam
+nxc
 cSf
 cSf
 cSf
@@ -194349,7 +194327,7 @@ aOW
 aOW
 cZv
 vQl
-tnz
+xUb
 wXa
 xUb
 lCk
@@ -225166,7 +225144,7 @@ lMe
 aip
 uWw
 eQD
-twp
+ihN
 iqb
 ufI
 fbA
@@ -359572,7 +359550,7 @@ krG
 iHq
 iHq
 mzA
-sOe
+mzA
 iHq
 mzA
 hCY
@@ -360857,7 +360835,7 @@ krG
 iHq
 iHq
 mzA
-sOe
+mzA
 iHq
 mzA
 hCY
