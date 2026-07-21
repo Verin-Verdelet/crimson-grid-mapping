@@ -1877,6 +1877,10 @@
 "aBo" = (
 /turf/open/floor/plating/rough,
 /area/vtm/interior/glasswalker)
+"aBC" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/mineral/plastitanium,
+/area/vtm/interior/tzimisce_manor)
 "aBF" = (
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/fishermanswharf/ghetto)
@@ -8659,6 +8663,10 @@
 /obj/structure/roofstuff/alt2,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
+"cyc" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/carpet/black,
+/area/vtm/interior/tzimisce_manor)
 "cyg" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -10100,7 +10108,6 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/machinery/light/prince/directional/north,
 /turf/closed/wall/vampwall/old,
 /area/vtm/interior/tzimisce_manor)
 "cTG" = (
@@ -12989,7 +12996,7 @@
 /area/vtm/interior/baali)
 "dNs" = (
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/decal/shadow{
 	pixel_y = -32
@@ -13227,6 +13234,10 @@
 /obj/effect/decal/wallpaper/paper/green,
 /turf/closed/wall/vampwall/old,
 /area/vtm/interior)
+"dRR" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/carpet/royalblack,
+/area/vtm/interior/tzimisce_manor)
 "dRW" = (
 /obj/structure/chair/sofa/middle/brown,
 /turf/open/floor/wood/smooth/old,
@@ -14660,7 +14671,7 @@
 /area/vtm/outside/pacificheights/forest)
 "enw" = (
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/decal/shadow{
 	pixel_y = -32
@@ -22999,8 +23010,8 @@
 	locked = 1
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
-	max_integrity = 1000
+	id = "emergencylockdownV";
+	max_integrity = 3500
 	},
 /obj/effect/mapping_helpers/door/access/old_clan_tzimisce,
 /obj/effect/mapping_helpers/door/bash_difficulty/ten,
@@ -24344,8 +24355,7 @@
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "emergencylockdownV";
-	max_integrity = 3500;
-	name = "reinforced shutters"
+	max_integrity = 3500
 	},
 /obj/effect/mapping_helpers/door/access/old_clan_tzimisce,
 /obj/effect/mapping_helpers/door/access/old_clan_tzimisce,
@@ -30178,6 +30188,10 @@
 "iTZ" = (
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"iUc" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/wood/smooth,
+/area/vtm/interior/tzimisce_manor)
 "iUf" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -36164,7 +36178,7 @@
 /area/vtm/interior/millennium_tower/f2)
 "kIZ" = (
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/decal/shadow{
 	pixel_y = -32
@@ -36404,7 +36418,7 @@
 /area/vtm/outside/forest)
 "kNW" = (
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/decal/shadow{
 	pixel_y = -32
@@ -38794,7 +38808,7 @@
 /area/vtm/interior/millennium_tower/ventrue)
 "lxT" = (
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/decal/shadow{
 	pixel_y = -32
@@ -41238,8 +41252,7 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "emergencylockdownV";
-	max_integrity = 3500;
-	name = "reinforced shutters"
+	max_integrity = 3500
 	},
 /obj/effect/mapping_helpers/door/access/old_clan_tzimisce,
 /obj/effect/mapping_helpers/door/bash_difficulty/ten,
@@ -42899,8 +42912,7 @@
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "emergencylockdownV";
-	max_integrity = 3500;
-	name = "reinforced shutters"
+	max_integrity = 3500
 	},
 /obj/effect/mapping_helpers/door/access/old_clan_tzimisce,
 /obj/effect/mapping_helpers/door/bash_difficulty/ten,
@@ -43960,8 +43972,8 @@
 	lockpick_difficulty = 8
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
-	max_integrity = 1000
+	id = "emergencylockdownV";
+	max_integrity = 3500
 	},
 /obj/effect/mapping_helpers/door/access/old_clan_tzimisce,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
@@ -45532,7 +45544,6 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/machinery/light/prince/directional/north,
 /turf/closed/wall/vampwall/old,
 /area/vtm/interior/tzimisce_manor)
 "nwr" = (
@@ -50314,6 +50325,10 @@
 /obj/structure/roadsign,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"oOT" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/plating/sidewalk/old,
+/area/vtm/interior/tzimisce_manor)
 "oOZ" = (
 /obj/structure/table/wood,
 /obj/item/chair/wood,
@@ -50381,7 +50396,7 @@
 /area/vtm/interior/library)
 "oPB" = (
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/decal/shadow{
 	pixel_y = -32
@@ -52562,6 +52577,7 @@
 /area/vtm/interior/millennium_tower/f2)
 "pvy" = (
 /obj/effect/decal/shadow,
+/obj/machinery/sprinkler/area_managed,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/tzimisce_manor)
 "pvz" = (
@@ -53144,6 +53160,10 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch)
+"pCZ" = (
+/obj/machinery/light/prince/directional/south,
+/turf/open/floor/wood/ornate,
+/area/vtm/interior/tzimisce_manor)
 "pDn" = (
 /obj/structure/flora/bush/style_random,
 /turf/open/misc/grass,
@@ -54465,7 +54485,7 @@
 /area/vtm/interior/tzimisce_manor)
 "pVD" = (
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/decal/shadow{
 	pixel_y = -32
@@ -56024,6 +56044,10 @@
 	density = 0
 	},
 /area/vtm/interior/sewer/nosferatu_town)
+"quD" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/city/toilet,
+/area/vtm/interior/tzimisce_manor)
 "quF" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood/smooth,
@@ -57012,6 +57036,10 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/millennium_tower/f2)
+"qIc" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/carpet/royalblue,
+/area/vtm/interior/tzimisce_manor)
 "qId" = (
 /turf/open/openspace,
 /area/vtm/interior/cog/pantry)
@@ -60535,6 +60563,10 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/misc/grass,
 /area/vtm/outside/giovanni/courtyard)
+"rHi" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/carpet/red,
+/area/vtm/interior/tzimisce_manor)
 "rHn" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/decal/cleanable/litter,
@@ -61550,8 +61582,8 @@
 	lockpick_difficulty = 17
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "emergencylockdown";
-	max_integrity = 1000
+	id = "emergencylockdownV";
+	max_integrity = 3500
 	},
 /obj/effect/mapping_helpers/door/access/old_clan_tzimisce,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
@@ -64266,6 +64298,10 @@
 /obj/structure/reagent_dispensers/cleaningfluid,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
+"sJM" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/wood/ornate,
+/area/vtm/interior/tzimisce_manor)
 "sJX" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/candle_box,
@@ -64284,6 +64320,10 @@
 /obj/structure/barrels/rand,
 /turf/open/misc/dirt,
 /area/vtm/interior/supply)
+"sKi" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/plating/granite/black,
+/area/vtm/interior/tzimisce_manor)
 "sKk" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -70088,6 +70128,10 @@
 /obj/structure/flora/bush/style_random,
 /turf/open/misc/grass,
 /area/vtm/outside/northbeach)
+"uAt" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/carpet,
+/area/vtm/interior/tzimisce_manor)
 "uAx" = (
 /obj/structure/railing{
 	dir = 4
@@ -73545,6 +73589,13 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior)
+"vCQ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/wood/smooth,
+/area/vtm/interior/tzimisce_manor)
 "vDe" = (
 /obj/structure/hedge,
 /turf/open/floor/plating/granite/black,
@@ -78858,6 +78909,13 @@
 	},
 /turf/open/floor/city/plating,
 /area/vtm/interior/millennium_tower/f2)
+"xgK" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/wood/smooth,
+/area/vtm/interior/tzimisce_manor)
 "xgL" = (
 /obj/structure/hedge{
 	pixel_y = 6
@@ -204639,7 +204697,7 @@ rih
 xFz
 xFz
 rOo
-qza
+uAt
 qza
 jEy
 rOo
@@ -205150,7 +205208,7 @@ qUh
 xFz
 nHn
 quW
-xFz
+quD
 xFz
 rOo
 nrD
@@ -205915,7 +205973,7 @@ vRg
 vRg
 vRg
 vRg
-vRg
+pCZ
 rOo
 rOo
 rOo
@@ -206169,7 +206227,7 @@ vRg
 vRg
 dFu
 spc
-spc
+vCQ
 spc
 mMc
 vRg
@@ -206184,7 +206242,7 @@ rOo
 dZr
 ctX
 pTu
-bxd
+aBC
 bxd
 cdd
 tMV
@@ -206689,7 +206747,7 @@ sZh
 vRg
 vRg
 vRg
-vRg
+pCZ
 nwo
 hsE
 rzV
@@ -206946,7 +207004,7 @@ sZh
 vRg
 vRg
 vRg
-vRg
+pCZ
 cTE
 nDv
 rzV
@@ -207454,7 +207512,7 @@ vRg
 vRg
 uiP
 dGm
-dGm
+xgK
 dGm
 ptN
 vRg
@@ -207469,7 +207527,7 @@ rOo
 dZr
 ctX
 pTu
-bxd
+aBC
 bxd
 cdd
 tMV
@@ -207971,8 +208029,8 @@ xne
 xne
 xne
 dti
-vRg
-tor
+pCZ
+rOo
 jOO
 wxY
 teK
@@ -208754,7 +208812,7 @@ cER
 kGZ
 rzV
 yev
-ctX
+dRR
 rcP
 ctX
 rKr
@@ -270175,13 +270233,13 @@ xFz
 rOo
 lZy
 ctX
-ctX
+dRR
 ctX
 ctX
 bME
 nIA
 nIA
-nIA
+oOT
 woV
 rOo
 ntq
@@ -272222,10 +272280,10 @@ exW
 xDO
 exW
 iuW
-dkb
+sKi
 dkb
 rOo
-dIr
+cyc
 qTN
 rmd
 rOo
@@ -272745,7 +272803,7 @@ rOo
 rOo
 rOo
 vWm
-ctX
+dRR
 enw
 uYk
 uYk
@@ -274023,11 +274081,11 @@ dkb
 leW
 dkb
 hSb
-vRg
+sJM
 mtu
 lCp
 hwo
-hwo
+iUc
 axg
 nmu
 axg
@@ -274805,7 +274863,7 @@ hwo
 hwo
 wvx
 hwo
-hwo
+iUc
 wvx
 hwo
 wvx
@@ -275828,14 +275886,14 @@ ntq
 pyO
 rJC
 dEi
-dEi
+qIc
 iqG
 bvH
 rOo
 bUF
 gFJ
 rzV
-rzV
+rHi
 cGX
 pyO
 ntq
