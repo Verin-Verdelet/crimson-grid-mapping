@@ -15902,6 +15902,10 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/setite)
+"eIr" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/anarch)
 "eIs" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -19915,6 +19919,10 @@
 /obj/effect/landmark/start/darkpack/anarch/emissary,
 /turf/open/floor/carpet,
 /area/vtm/interior/anarch)
+"fPD" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/city/toilet,
+/area/vtm/interior/anarch)
 "fPJ" = (
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/sidewalkalt,
@@ -22665,6 +22673,7 @@
 /area/vtm/interior)
 "gDp" = (
 /obj/effect/decal/cleanable/trash,
+/obj/machinery/sprinkler/area_managed,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
 "gDv" = (
@@ -25100,6 +25109,10 @@
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"hoW" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/anarch/basement)
 "hoZ" = (
 /obj/structure/vampfence/rich,
 /obj/structure/vampfence/rich{
@@ -29349,6 +29362,10 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/fishermanswharf/lower)
+"iGW" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/anarch/basement)
 "iHc" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/rough,
@@ -52911,6 +52928,10 @@
 /obj/effect/landmark/npcability,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights/community)
+"pzU" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/anarch/basement)
 "pzW" = (
 /obj/structure/chair,
 /turf/open/floor/city/toilet,
@@ -53687,6 +53708,10 @@
 /obj/item/ammo_box/darkpack/c556/incendiary,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f4)
+"pKp" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/carpet,
+/area/vtm/interior/anarch)
 "pKt" = (
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/simple,
@@ -66631,6 +66656,10 @@
 "twJ" = (
 /turf/open/misc/dirt,
 /area/vtm/interior/supply)
+"twK" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/anarch)
 "twL" = (
 /obj/structure/chair/wood/wings{
 	dir = 4
@@ -67376,6 +67405,7 @@
 /area/vtm/interior/shop)
 "tIi" = (
 /obj/structure/table/wood,
+/obj/machinery/sprinkler/area_managed,
 /turf/open/floor/carpet,
 /area/vtm/interior/anarch/basement)
 "tIt" = (
@@ -78514,6 +78544,7 @@
 /obj/effect/turf_decal/siding/white{
 	icon_state = "warn_box"
 	},
+/obj/machinery/sprinkler/area_managed,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch)
 "xaW" = (
@@ -102543,7 +102574,7 @@ oIa
 mLp
 qAI
 klB
-klB
+pzU
 mVv
 mLp
 klB
@@ -102805,7 +102836,7 @@ mdY
 mLp
 eka
 tUw
-vzD
+hoW
 qTZ
 mLp
 mLp
@@ -104597,14 +104628,14 @@ kHR
 cxK
 klB
 klB
-klB
+pzU
 klB
 vzD
 vzD
 tIB
 klB
 bDQ
-vzD
+hoW
 vzD
 oKl
 klB
@@ -106141,7 +106172,7 @@ vrr
 mLp
 qkh
 sgp
-lCv
+iGW
 rJN
 mLp
 qtN
@@ -107420,7 +107451,7 @@ mYt
 owT
 isZ
 rYV
-hHF
+mLp
 jut
 mLp
 ibH
@@ -107436,7 +107467,7 @@ lCv
 fRA
 mLp
 rKm
-lCv
+iGW
 nJF
 mLp
 oIa
@@ -165245,7 +165276,7 @@ iZB
 gfa
 wXH
 qLB
-qLB
+pKp
 qLB
 oRi
 jAr
@@ -165495,7 +165526,7 @@ kGg
 rqQ
 rvo
 wsX
-wsX
+eIr
 aIz
 aIz
 iZB
@@ -165510,7 +165541,7 @@ pcy
 jFZ
 bGN
 qLB
-qLB
+pKp
 fkk
 dbW
 pJU
@@ -167566,7 +167597,7 @@ pcy
 jFZ
 bGN
 qLB
-qLB
+pKp
 fkk
 vFQ
 agH
@@ -168063,7 +168094,7 @@ vpB
 vpB
 hBS
 pWl
-aOU
+fPD
 aOU
 aOU
 uFZ
@@ -168346,7 +168377,7 @@ lMJ
 xnW
 pMC
 pMC
-pMC
+twK
 pMC
 pMC
 fkk
@@ -168586,7 +168617,7 @@ bLe
 bLe
 pMC
 pMC
-pMC
+twK
 pek
 pek
 pMC
@@ -169364,7 +169395,7 @@ fkk
 kGg
 tfG
 pMC
-pMC
+twK
 psQ
 kGg
 oxg
@@ -170141,7 +170172,7 @@ kGg
 hKy
 pDs
 qLB
-qLB
+pKp
 bGN
 uqI
 giR
@@ -170649,7 +170680,7 @@ whu
 kGg
 jch
 pMC
-pMC
+twK
 pMC
 kGg
 nYY
