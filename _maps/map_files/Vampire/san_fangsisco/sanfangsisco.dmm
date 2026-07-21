@@ -595,6 +595,12 @@
 /obj/effect/landmark/npcwall,
 /turf/open/misc/grass,
 /area/vtm/outside/park)
+"aiW" = (
+/obj/structure/railing{
+	pixel_y = -5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/vtm/interior/millennium_tower)
 "ajk" = (
 /obj/structure/chair/plastic{
 	dir = 1
@@ -22967,10 +22973,6 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
-	},
 /turf/open/water,
 /area/vtm/interior/millennium_tower)
 "gHS" = (
@@ -35794,10 +35796,6 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
-	},
 /turf/open/water,
 /area/vtm/interior/millennium_tower)
 "kDn" = (
@@ -43893,6 +43891,12 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
+"mWA" = (
+/obj/structure/railing{
+	pixel_y = -5
+	},
+/turf/open/floor/city/plating,
+/area/vtm/interior/millennium_tower)
 "mWE" = (
 /obj/structure/mop_bucket,
 /obj/item/reagent_containers/cup/bucket,
@@ -49008,10 +49012,6 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/pacificheights/community)
 "oxG" = (
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
@@ -55081,10 +55081,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/banu/haven)
 "qgP" = (
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
@@ -60933,10 +60929,6 @@
 "rOq" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
 	},
 /turf/open/water,
 /area/vtm/interior/millennium_tower)
@@ -81750,10 +81742,6 @@
 /turf/closed/wall/vampwall/bar,
 /area/vtm/interior/anarch)
 "xZq" = (
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
@@ -175983,7 +175971,7 @@ uRq
 fqv
 bmK
 ead
-rXD
+mWA
 kDi
 ukP
 ecj
@@ -176240,7 +176228,7 @@ gnW
 dXB
 bmK
 ktj
-rXD
+mWA
 rOq
 ioA
 dZy
@@ -176497,7 +176485,7 @@ pFn
 vmX
 bmK
 fbz
-rXD
+mWA
 gHP
 jpx
 rIY
@@ -177784,7 +177772,7 @@ oZm
 noM
 noM
 noM
-noM
+aiW
 xZq
 rXD
 pLZ
@@ -178041,7 +178029,7 @@ oZm
 swq
 pVL
 pVL
-noM
+aiW
 oxG
 jIl
 mCu
@@ -179069,7 +179057,7 @@ yhp
 pVL
 pVL
 pVL
-noM
+aiW
 qgP
 yeI
 oGk
@@ -179326,7 +179314,7 @@ bFh
 noM
 noM
 noM
-noM
+aiW
 xZq
 rXD
 pLZ
