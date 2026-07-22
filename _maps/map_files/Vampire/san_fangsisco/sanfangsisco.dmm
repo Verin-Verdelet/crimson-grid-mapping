@@ -319,9 +319,9 @@
 /turf/open/floor/wood,
 /area/vtm/interior/clinic)
 "aeP" = (
-/obj/structure/table,
 /obj/effect/spawner/random/occult/artifact,
 /obj/item/melee/baseball_bat/vamp,
+/obj/structure/table,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "aeX" = (
@@ -7314,9 +7314,6 @@
 /area/vtm/interior/tzimisce_manor)
 "cfZ" = (
 /obj/structure/closet/crate/large{
-	pixel_y = 10
-	},
-/obj/structure/closet/crate/large{
 	pixel_x = 6;
 	pixel_y = 20
 	},
@@ -7559,11 +7556,11 @@
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/dollar/hundred,
-/obj/structure/table/wood/fancy/royalblue,
 /obj/item/smartphone/clean,
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
+/obj/structure/table/wood/fancy/royalblue,
 /turf/open/floor/carpet/royalblue,
 /area/vtm/interior/millennium_tower/ventrue)
 "cjC" = (
@@ -19217,12 +19214,12 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/setite)
 "fEY" = (
-/obj/structure/table,
 /obj/item/instrument/eguitar{
 	anchored = 1;
 	pixel_y = 32
 	},
 /obj/vampire_computer,
+/obj/structure/table,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior)
 "fFa" = (
@@ -20405,12 +20402,6 @@
 /obj/vampire_computer,
 /turf/open/floor/wood/old,
 /area/vtm/interior/police/fed)
-"fVz" = (
-/obj/structure/table/wood,
-/obj/structure/table/wood,
-/obj/item/flashlight/flare/candle/infinite,
-/turf/open/floor/wood/smooth/old,
-/area/vtm/outside/forest)
 "fVR" = (
 /obj/structure/chair/office,
 /turf/open/floor/wood/smooth/old,
@@ -48939,7 +48930,6 @@
 /area/vtm/interior/millennium_tower)
 "ovK" = (
 /obj/structure/table/wood/fancy/royalblue,
-/obj/structure/table/wood/fancy/royalblue,
 /obj/item/storage/briefcase/secure{
 	pixel_y = -10
 	},
@@ -57308,11 +57298,6 @@
 /obj/effect/landmark/npcability,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/financialdistrict)
-"qLn" = (
-/obj/structure/table/wood,
-/obj/structure/table/wood,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/giovanni/basement)
 "qLp" = (
 /obj/structure/lamppost/one{
 	dir = 8
@@ -68570,11 +68555,6 @@
 	},
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/glasswalker)
-"ucj" = (
-/obj/structure/table,
-/obj/structure/table,
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior)
 "uck" = (
 /obj/structure/mirror{
 	pixel_y = 32
@@ -70806,7 +70786,6 @@
 	pixel_x = 3;
 	pixel_y = 10
 	},
-/obj/effect/decal/pallet,
 /obj/effect/decal/pallet{
 	pixel_x = 4;
 	pixel_y = 8
@@ -77458,7 +77437,6 @@
 /obj/machinery/door/poddoor/shutters/armory{
 	damage_deflection = 60;
 	max_integrity = 300;
-	name = "panic room shutters";
 	id = 12;
 	dir = 4
 	},
@@ -94491,7 +94469,7 @@ lWX
 lWX
 pwf
 lVe
-qLn
+oMm
 oMm
 gql
 tnF
@@ -98594,7 +98572,7 @@ sDZ
 sDZ
 sDZ
 tdc
-fVz
+rPb
 tWL
 tWL
 mGB
@@ -231829,7 +231807,7 @@ aOU
 ppK
 xZi
 xaI
-ucj
+cJU
 hRD
 iHq
 cvE
