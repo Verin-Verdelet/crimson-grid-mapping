@@ -71024,10 +71024,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/clinic)
-"uTu" = (
-/obj/machinery/light/directional/north,
-/turf/closed/wall/vampwall/painted,
-/area/vtm/interior/clinic)
 "uTC" = (
 /obj/effect/turf_decal/stock{
 	dir = 8
@@ -72106,11 +72102,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/laundromat)
-"vjA" = (
-/obj/machinery/light/small/red/directional/north,
-/obj/effect/decal/gut_floor,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/sewer)
 "vjQ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -124096,7 +124087,7 @@ lTU
 oBO
 lTU
 ktx
-vjA
+mUa
 wTq
 oIa
 kfi
@@ -125124,7 +125115,7 @@ lTU
 wAc
 lTU
 vQB
-vjA
+mUa
 wTq
 oIa
 kfi
@@ -183400,7 +183391,7 @@ uDj
 uDj
 kco
 uDj
-uTu
+bUt
 fsP
 jcx
 jcx
