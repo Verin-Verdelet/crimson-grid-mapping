@@ -1355,10 +1355,6 @@
 /obj/effect/turf_decal/siding/white,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/millennium_tower)
-"atQ" = (
-/obj/machinery/light/small/red/directional/east,
-/turf/open/floor/wood/old,
-/area/vtm/interior/theatre)
 "atT" = (
 /turf/open/openspace,
 /area/vtm/interior/police/upstairs)
@@ -4770,10 +4766,6 @@
 	},
 /turf/open/floor/city/toilet,
 /area/vtm/interior/cog/caern)
-"brX" = (
-/obj/machinery/light/directional/south,
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/theatre)
 "bsd" = (
 /obj/machinery/sprinkler/area_managed,
 /turf/open/floor/wood/smooth/old,
@@ -7569,7 +7561,6 @@
 /obj/structure/chair/wood/wings{
 	dir = 1
 	},
-/obj/machinery/light/prince/directional/east,
 /turf/open/floor/carpet,
 /area/vtm/outside/pacificheights/forest)
 "cjL" = (
@@ -14928,6 +14919,11 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
+"ese" = (
+/obj/effect/decal/cleanable/litter,
+/obj/effect/spawner/random/occult/artifact,
+/turf/open/floor/plating/rough,
+/area/vtm/outside/forest)
 "esp" = (
 /obj/structure/table/countertop/bubway,
 /obj/item/ammo_box/darkpack/c556{
@@ -23235,6 +23231,10 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
+"gME" = (
+/obj/effect/spawner/random/occult/artifact,
+/turf/open/floor/plating/rough,
+/area/vtm/outside/forest)
 "gMH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -25891,13 +25891,6 @@
 /obj/effect/landmark/npcbeacon,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/ghetto)
-"hDI" = (
-/obj/machinery/light/prince/ghost{
-	pixel_x = -32;
-	pixel_y = 32
-	},
-/turf/open/floor/plating/sidewalk/old,
-/area/vtm/outside/forest)
 "hDK" = (
 /obj/structure/chair/comfy{
 	dir = 1
@@ -37330,10 +37323,6 @@
 /obj/structure/retail/library,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/chantry)
-"lbC" = (
-/obj/machinery/light/small/red/directional/east,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/laundromat)
 "lbH" = (
 /obj/structure/vampdoor/simple{
 	lockpick_difficulty = 18;
@@ -41146,10 +41135,7 @@
 /area/vtm/interior/banu/haven)
 "mkh" = (
 /obj/structure/table,
-/obj/structure/sign/city/chinese/alt{
-	dir = 4;
-	pixel_y = 16
-	},
+/obj/structure/sign/city/chinese/alt/directional/north,
 /obj/structure/retail/black_market,
 /obj/structure/platform/lowwall/city,
 /turf/open/floor/plating/rough,
@@ -42221,7 +42207,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/laundromat)
 "mBA" = (
-/obj/machinery/light/small/red/directional/east,
+/obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/ghetto)
 "mBC" = (
@@ -43960,6 +43946,7 @@
 /obj/item/ammo_box/magazine/darkpack9mm,
 /obj/item/ammo_box/magazine/darkpack9mm,
 /obj/item/ammo_box/darkpack/c9mm,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
 "mZj" = (
@@ -47004,6 +46991,10 @@
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"nSJ" = (
+/obj/machinery/light/warm/directional/north,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/endron_facility/restricted)
 "nSO" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood/smooth/old,
@@ -50634,10 +50625,6 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/eight,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior)
-"oUs" = (
-/obj/machinery/light/small/red/directional/east,
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/church)
 "oUy" = (
 /obj/structure/flora/bush/flowers_pp/style_random,
 /obj/effect/turf_decal/weather/dirt{
@@ -62622,10 +62609,6 @@
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/fishermanswharf)
-"snj" = (
-/obj/machinery/light/warm/directional/south,
-/turf/closed/wall/vampwall/metal,
-/area/vtm/interior/endron_facility/restricted)
 "snm" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/landmark/npcwall,
@@ -67303,13 +67286,6 @@
 /obj/machinery/light/small/pink/directional/west,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior)
-"tKi" = (
-/obj/machinery/light/prince/ghost{
-	pixel_x = 32;
-	pixel_y = 32
-	},
-/turf/open/floor/plating/sidewalk/old,
-/area/vtm/outside/forest)
 "tKk" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -76384,6 +76360,10 @@
 /obj/structure/flora/rock/darkpack,
 /turf/open/misc/grass,
 /area/vtm/outside/pacificheights/old)
+"wyx" = (
+/obj/machinery/light/prince/directional/north,
+/turf/open/misc/dirt,
+/area/vtm/outside/forest)
 "wyC" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
@@ -78353,6 +78333,7 @@
 /obj/item/clothing/mask/bandana/red,
 /obj/item/clothing/under/syndicate/tacticool,
 /obj/item/clothing/under/syndicate/tacticool,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
 "xcp" = (
@@ -124467,8 +124448,8 @@ jcc
 lVM
 lVM
 lVM
-lVM
-qiF
+udi
+jcc
 lMe
 lMe
 qox
@@ -124719,8 +124700,8 @@ oIa
 jcc
 mZf
 lMe
-lMe
-qiF
+bgB
+jcc
 lVM
 sFf
 bfu
@@ -125230,7 +125211,7 @@ kfi
 kfi
 kfi
 oIa
-qiF
+jcc
 xbX
 mFC
 lMe
@@ -125753,8 +125734,8 @@ jcc
 vUM
 vUM
 vUM
-qiF
-lMe
+jcc
+jRc
 lMe
 lMe
 eJC
@@ -126001,7 +125982,7 @@ kfi
 kfi
 kfi
 oIa
-qiF
+jcc
 lMe
 lMe
 lMe
@@ -131534,8 +131515,8 @@ oKK
 fdW
 tzz
 oIa
-snj
-nNN
+dQN
+nSJ
 nNN
 nNN
 kXa
@@ -132562,8 +132543,8 @@ tzz
 tzz
 tzz
 oIa
-snj
-nNN
+dQN
+nSJ
 nNN
 nNN
 kXa
@@ -165078,8 +165059,8 @@ iEe
 jPg
 jPg
 jPg
-oUs
-oUs
+jPg
+jPg
 jPg
 jPg
 jPg
@@ -165336,7 +165317,7 @@ jPg
 jPg
 dII
 jPg
-oUs
+jPg
 dII
 jPg
 jPU
@@ -181774,7 +181755,7 @@ grt
 ozy
 grt
 grt
-grt
+ozy
 svB
 qrc
 bkd
@@ -182802,7 +182783,7 @@ vop
 vop
 ssN
 vop
-brX
+grt
 ror
 bkd
 bkd
@@ -183573,9 +183554,9 @@ vop
 vop
 ssN
 vop
-brX
+grt
 ror
-atQ
+bkd
 bkd
 bkd
 cLl
@@ -184344,7 +184325,7 @@ grt
 grt
 grt
 grt
-grt
+fgT
 wGw
 gPW
 cAB
@@ -193596,7 +193577,7 @@ cMY
 mBz
 wXa
 xUb
-lbC
+wXa
 wXa
 wXa
 wXa
@@ -198136,7 +198117,7 @@ bIM
 sld
 qTP
 jlv
-mBA
+jlv
 avt
 mwS
 mwS
@@ -377150,7 +377131,7 @@ azk
 tWL
 tWL
 sAa
-qia
+wyx
 qCh
 vbS
 qia
@@ -377407,7 +377388,7 @@ wWZ
 iBE
 tWL
 akk
-hDI
+qCh
 qCh
 vZM
 qCh
@@ -377921,7 +377902,7 @@ add
 tWL
 tWL
 akk
-tKi
+qCh
 qCh
 shI
 qCh
@@ -378178,7 +378159,7 @@ fed
 tWL
 tWL
 sAa
-qia
+wyx
 qCh
 vbS
 qia
@@ -385124,7 +385105,7 @@ kfi
 oIa
 dpH
 xHG
-njk
+ese
 tHT
 dpH
 shh
@@ -386411,7 +386392,7 @@ dpH
 aPR
 sCl
 cjT
-cjT
+gME
 rBh
 cjT
 shh
