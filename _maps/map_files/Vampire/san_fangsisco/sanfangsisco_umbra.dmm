@@ -180,7 +180,7 @@
 /turf/open/umbra,
 /area/vtm/outside/penumbra)
 "cr" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_hospital"
 	},
 /turf/open/floor/city/plating_mono,
@@ -239,7 +239,7 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/outside/penumbra)
 "dm" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_dora"
 	},
 /turf/open/floor/plating/concrete,
@@ -583,7 +583,7 @@
 /turf/open/umbra,
 /area/vtm/outside/penumbra)
 "hP" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_forest"
 	},
 /turf/open/misc/grass,
@@ -1560,7 +1560,7 @@
 /turf/open/floor/carpet/darkpack,
 /area/vtm/outside/penumbra)
 "wf" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_bar"
 	},
 /turf/open/floor/wood/smooth/old,
@@ -1617,7 +1617,7 @@
 /turf/open/floor/iron/stairs/left,
 /area/vtm/outside/penumbra)
 "wI" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_tower"
 	},
 /turf/open/floor/city/plating_mono,
@@ -1904,7 +1904,7 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/penumbra)
 "AJ" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_police"
 	},
 /turf/open/floor/plating/concrete,
@@ -2019,7 +2019,7 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/penumbra)
 "Ct" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_street"
 	},
 /turf/open/floor/plating/asphalt,
@@ -2294,7 +2294,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/penumbra)
 "Gv" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_beach"
 	},
 /turf/open/misc/beach/vamp,
@@ -2313,7 +2313,7 @@
 /turf/open/floor/plating/granite,
 /area/vtm/outside/penumbra)
 "GB" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_church"
 	},
 /turf/open/floor/wood/smooth/old,
@@ -2627,7 +2627,7 @@
 	},
 /area/vtm/outside/penumbra)
 "Lc" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_sewers"
 	},
 /turf/open/water/vamp_sewer,
@@ -2813,7 +2813,7 @@
 /turf/open/floor/plating/canal,
 /area/vtm/outside/penumbra)
 "Oa" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_theatre"
 	},
 /turf/open/floor/wood/old,
@@ -2923,7 +2923,7 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/penumbra)
 "PU" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_supply"
 	},
 /turf/open/floor/plating/rough,
@@ -3332,7 +3332,7 @@
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/penumbra)
 "WO" = (
-/obj/transfer_point_vamp/umbral{
+/obj/umbra_portal{
 	id = "umbra_china"
 	},
 /turf/open/floor/plating/sidewalk/rich,
