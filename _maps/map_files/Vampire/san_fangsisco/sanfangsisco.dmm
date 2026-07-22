@@ -20512,7 +20512,6 @@
 "fZu" = (
 /obj/item/reagent_containers/cup/glass/baggie/meth/cocaine,
 /obj/machinery/light/small/red/directional/south,
-/obj/machinery/light/small/red/directional/south,
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/endron_facility)
 "fZv" = (
