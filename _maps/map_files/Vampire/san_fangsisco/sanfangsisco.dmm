@@ -9126,7 +9126,6 @@
 	pixel_x = -3;
 	pixel_y = -5
 	},
-/obj/structure/closet/crate/large,
 /obj/structure/closet/crate/large{
 	pixel_y = 10
 	},
@@ -23569,7 +23568,6 @@
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/bianchiBank)
 "gRg" = (
-/obj/structure/table,
 /obj/structure/table/wood,
 /obj/structure/platform/lowwall/old,
 /turf/open/floor/plating/rough,
@@ -32812,7 +32810,6 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
 "jIg" = (
-/obj/structure/table,
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/vampirecola,
 /obj/item/reagent_containers/cup/soda_cans/vampirecola{
@@ -33278,7 +33275,6 @@
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/techshop)
 "jPw" = (
-/obj/structure/table,
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
 /obj/structure/platform/lowwall/old,
@@ -37973,10 +37969,6 @@
 /obj/structure/closet/crate/dumpster{
 	pixel_x = 3;
 	pixel_y = 10
-	},
-/obj/structure/closet/crate/large{
-	pixel_x = 7;
-	pixel_y = -13
 	},
 /turf/open/misc/grass,
 /area/vtm/outside/pacificheights/forest)
@@ -51778,7 +51770,6 @@
 /area/vtm/outside/financialdistrict)
 "pjp" = (
 /obj/structure/table/wood,
-/obj/structure/table/wood,
 /obj/item/storage/belt/sheath/vamp/sabre,
 /turf/open/floor/carpet/lone,
 /area/vtm/interior)
@@ -55496,7 +55487,6 @@
 /turf/open/floor/wood/old,
 /area/vtm/interior/hotel)
 "qlo" = (
-/obj/structure/table,
 /obj/structure/table/wood,
 /obj/structure/platform/lowwall/old,
 /obj/vampire_computer,
@@ -80517,10 +80507,6 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
 "xFB" = (
-/obj/structure/closet/crate/large{
-	pixel_x = 6;
-	pixel_y = 10
-	},
 /obj/structure/closet/crate/large{
 	pixel_x = 6;
 	pixel_y = 10
