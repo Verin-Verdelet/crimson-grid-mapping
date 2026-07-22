@@ -78662,8 +78662,6 @@
 /area/vtm/interior/police)
 "xcT" = (
 /obj/structure/table/countertop/bacotell,
-/obj/structure/table/countertop/bacotell,
-/obj/structure/table/countertop/bacotell,
 /obj/structure/fluff/tv/order/two,
 /obj/structure/platform/lowwall/painted,
 /turf/open/floor/plating/rough,
