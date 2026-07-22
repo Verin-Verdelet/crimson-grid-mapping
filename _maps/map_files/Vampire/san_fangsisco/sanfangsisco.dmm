@@ -22454,7 +22454,6 @@
 /area/vtm/interior/techshop)
 "gBs" = (
 /obj/machinery/light/directional/south,
-/obj/structure/table/wood/fancy/black,
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 4
 	},
@@ -26235,7 +26234,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/giovanni)
 "hHN" = (
-/obj/structure/table,
 /obj/structure/table,
 /obj/item/clothing/suit/apron/chef,
 /obj/item/clothing/head/utility/chefhat,
@@ -34137,9 +34135,6 @@
 "kcs" = (
 /obj/structure/stairs/east,
 /obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/railing{
 	pixel_y = 1
 	},
 /turf/open/floor/plating/rough,
@@ -36024,10 +36019,6 @@
 /turf/open/floor/carpet/red,
 /area/vtm/interior/clinic/haven)
 "kFQ" = (
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
-	},
 /obj/structure/table/wood,
 /obj/vampire_computer,
 /turf/open/floor/wood/smooth,
@@ -36427,7 +36418,6 @@
 	},
 /area/vtm/interior/giovanni/basement)
 "kNQ" = (
-/obj/structure/table/wood,
 /obj/underplate/stuff{
 	pixel_y = 8
 	},
@@ -61271,7 +61261,6 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/sewer)
 "rQX" = (
-/obj/structure/table/wood,
 /obj/machinery/microwave{
 	desc = "Cooks and boils stuff, somehow.";
 	pixel_x = -3;
@@ -66569,7 +66558,6 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/wyrm_corrupted)
 "tvi" = (
-/obj/structure/table,
 /obj/structure/table/wood,
 /obj/item/gun/ballistic/automatic/darkpack/sniper,
 /turf/open/floor/carpet,
@@ -70126,7 +70114,7 @@
 /area/vtm/interior)
 "uAi" = (
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/giovanni)
@@ -77660,7 +77648,6 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/pacificheights/community)
 "wMP" = (
-/obj/structure/table/wood,
 /obj/item/storage/box/handcuffs,
 /obj/structure/table/wood/fancy/green,
 /turf/open/floor/wood/smooth/old,
@@ -80451,13 +80438,6 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/old,
 /area/vtm/outside/northbeach)
-"xED" = (
-/obj/item/kirbyplants/random,
-/obj/structure/railing{
-	pixel_y = -2
-	},
-/turf/open/floor/bronze,
-/area/vtm/interior/giovanni)
 "xEH" = (
 /obj/structure/vampdoor/glass,
 /obj/effect/mapping_helpers/door/access/pentex,
@@ -224833,7 +224813,7 @@ bqB
 bqB
 bqB
 oyH
-xED
+sNC
 hlf
 uAi
 bqB
