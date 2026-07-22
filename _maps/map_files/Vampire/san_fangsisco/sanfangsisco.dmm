@@ -55,6 +55,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 9
 	},
+/obj/machinery/sprinkler/area_managed,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/bianchiBank)
 "aaY" = (
@@ -1278,7 +1279,7 @@
 "asM" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /obj/effect/turf_decal/weather/dirt,
 /obj/structure/flora/tree/vamp,
@@ -2039,7 +2040,7 @@
 /area/vtm/outside/pacificheights/forest)
 "aEk" = (
 /obj/structure/railing{
-	dir = 4
+	dir = 8
 	},
 /obj/structure/lattice,
 /obj/structure/hedge{
@@ -2053,6 +2054,10 @@
 	pixel_y = 13
 	},
 /obj/effect/spawner/random/occult/artifact,
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/open/floor/wood/old,
 /area/vtm/interior/bianchiBank)
 "aEp" = (
@@ -2902,8 +2907,7 @@
 /area/vtm/interior/clinic/haven)
 "aRw" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	pixel_y = -2
 	},
 /obj/effect/decal/pallet,
 /obj/effect/decal/cleanable/garbage{
@@ -6393,6 +6397,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 5
 	},
+/obj/machinery/sprinkler/area_managed,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/bianchiBank)
 "bQP" = (
@@ -6480,9 +6485,6 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/millennium_tower)
 "bSj" = (
-/obj/structure/railing{
-	dir = 4
-	},
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/curtain/bounty{
 	icon_state = "bounty-closed";
@@ -11565,7 +11567,7 @@
 /area/vtm/interior/chantry/basement)
 "dpK" = (
 /obj/item/stack/dollar/fifty,
-/obj/machinery/light/warm/directional/south,
+/obj/machinery/light/directional/north,
 /obj/structure/table,
 /obj/item/reagent_containers/cup/glass/coffee/vampire/robust{
 	pixel_x = 3;
@@ -16964,7 +16966,7 @@
 	},
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 4
+	pixel_y = 3
 	},
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer/nosferatu_town)
@@ -23332,7 +23334,7 @@
 /area/vtm/interior/police)
 "gNw" = (
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/plating/granite,
@@ -23819,7 +23821,7 @@
 	dir = 4
 	},
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/city/plating_stone,
@@ -24272,6 +24274,10 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f2)
+"hbT" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/carpet,
+/area/vtm/interior/shop)
 "hbZ" = (
 /obj/structure/table,
 /obj/item/storage/briefcase/secure,
@@ -25497,7 +25503,7 @@
 "huO" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /obj/structure/flora/bush,
 /obj/structure/flora/tree/vamp{
@@ -27738,6 +27744,14 @@
 /obj/structure/flora/bush/lavendergrass/style_random,
 /turf/open/misc/dirt,
 /area/vtm/outside/pacificheights/forest)
+"igu" = (
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 3
+	},
+/obj/structure/flora/tree/vamp,
+/turf/open/misc/grass,
+/area/vtm/interior/bianchiBank)
 "igv" = (
 /obj/structure/chair/office,
 /turf/open/floor/wood/smooth,
@@ -30641,6 +30655,10 @@
 /obj/structure/stairs/east,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior)
+"jaM" = (
+/obj/machinery/sprinkler/area_managed,
+/turf/open/floor/city/plating_stone,
+/area/vtm/interior/bianchiBank)
 "jaQ" = (
 /obj/structure/closet,
 /obj/item/clothing/under/vampire/guard,
@@ -34839,7 +34857,7 @@
 	dir = 8
 	},
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/city/plating_stone,
@@ -35639,11 +35657,11 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/unionsquare)
 "kBn" = (
+/obj/structure/flora/tree/vamp,
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
-/obj/structure/flora/tree/vamp,
 /turf/open/misc/grass,
 /area/vtm/interior/bianchiBank)
 "kBp" = (
@@ -36123,7 +36141,7 @@
 "kHq" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 4
+	pixel_y = 3
 	},
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer/nosferatu_town)
@@ -37635,7 +37653,6 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/church/staff)
 "leh" = (
-/obj/structure/table,
 /obj/structure/table/wood,
 /obj/effect/decal/wallpaper/gold/low,
 /obj/item/paper_bin{
@@ -41396,7 +41413,7 @@
 "mmo" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
@@ -41478,7 +41495,6 @@
 /turf/open/floor/city/toilet,
 /area/vtm/graveyard/interior)
 "mnU" = (
-/obj/structure/table,
 /obj/structure/table/wood,
 /obj/structure/platform/lowwall/painted,
 /turf/open/floor/plating/rough,
@@ -43716,7 +43732,7 @@
 /obj/effect/decal/support,
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /turf/open/water,
 /area/vtm/interior/bianchiBank)
@@ -44422,7 +44438,7 @@
 "neP" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /obj/structure/flora/bush/style_random,
 /turf/open/misc/grass,
@@ -47953,8 +47969,7 @@
 /area/vtm/interior/giovanni)
 "ogt" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	pixel_y = -2
 	},
 /obj/effect/decal/pallet,
 /obj/structure/bricks,
@@ -49076,7 +49091,7 @@
 "oxr" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /turf/open/floor/wood/old,
 /area/vtm/interior/bianchiBank)
@@ -50081,8 +50096,7 @@
 /area/vtm/interior/bianchiBank)
 "oLx" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	pixel_y = -2
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/bianchiBank)
@@ -51198,7 +51212,7 @@
 "pbb" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /turf/open/misc/grass,
 /area/vtm/interior/bianchiBank)
@@ -53089,9 +53103,6 @@
 	dir = 1;
 	pixel_y = 12
 	},
-/obj/structure/railing{
-	dir = 4
-	},
 /obj/structure/lattice,
 /obj/structure/hedge{
 	pixel_y = 6
@@ -53102,6 +53113,7 @@
 /obj/structure/flora/bush/flowers_yw/style_random{
 	pixel_y = 10
 	},
+/obj/structure/railing,
 /turf/open/floor/wood/old,
 /area/vtm/interior/bianchiBank)
 "pCx" = (
@@ -56097,7 +56109,7 @@
 "quY" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /obj/structure/flora/bush/stalky/style_random,
 /obj/effect/turf_decal/weather/dirt,
@@ -57139,9 +57151,6 @@
 /turf/open/floor/wood,
 /area/vtm/interior/oldchurch)
 "qJT" = (
-/obj/structure/railing{
-	dir = 4
-	},
 /obj/structure/lattice,
 /obj/structure/hedge{
 	pixel_y = 6
@@ -57159,6 +57168,7 @@
 /obj/structure/flora/bush/lavendergrass/style_random{
 	pixel_y = 13
 	},
+/obj/structure/railing,
 /turf/open/floor/wood/old,
 /area/vtm/interior/bianchiBank)
 "qJX" = (
@@ -57809,7 +57819,7 @@
 "qSl" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /obj/structure/railing{
 	dir = 4
@@ -60025,16 +60035,17 @@
 /obj/structure/hedge{
 	pixel_y = 6
 	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
-	},
 /obj/structure/flora/bush/leavy/style_random{
 	pixel_y = 13
 	},
 /obj/structure/flora/bush/lavendergrass/style_random{
 	pixel_y = 13
 	},
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 3
+	},
+/obj/structure/railing,
 /turf/open/floor/wood/old,
 /area/vtm/interior/bianchiBank)
 "rxv" = (
@@ -61336,16 +61347,9 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "rSz" = (
-/obj/structure/railing{
-	dir = 4
-	},
 /obj/structure/lattice,
 /obj/structure/hedge{
 	pixel_y = 6
-	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
 	},
 /obj/structure/flora/bush/leavy/style_random{
 	pixel_y = 13
@@ -61353,6 +61357,11 @@
 /obj/structure/flora/bush/flowers_yw/style_random{
 	pixel_y = 10
 	},
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 3
+	},
+/obj/structure/railing,
 /turf/open/floor/wood/old,
 /area/vtm/interior/bianchiBank)
 "rSD" = (
@@ -64311,7 +64320,7 @@
 /obj/effect/decal/support,
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /turf/open/misc/grass,
 /area/vtm/interior/bianchiBank)
@@ -65444,20 +65453,18 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/chinatown)
 "ted" = (
-/obj/structure/railing{
-	dir = 4
-	},
 /obj/structure/lattice,
 /obj/structure/hedge{
 	pixel_y = 6
 	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
-	},
 /obj/structure/flora/bush/ferny/style_random{
 	pixel_y = 10
 	},
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 3
+	},
+/obj/structure/railing,
 /turf/open/floor/wood/old,
 /area/vtm/interior/bianchiBank)
 "tef" = (
@@ -65727,6 +65734,12 @@
 /obj/item/stack/rods,
 /turf/open/floor/plating/rough,
 /area/vtm/outside/forest)
+"tiN" = (
+/obj/structure/railing{
+	pixel_y = -2
+	},
+/turf/open/floor/city/plating,
+/area/vtm/interior/strip)
 "tiO" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -69129,7 +69142,7 @@
 /obj/effect/decal/shadow,
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /obj/structure/flora/tree/vamp{
 	pixel_x = 8;
@@ -69917,7 +69930,7 @@
 /obj/effect/decal/shadow,
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /turf/open/misc/grass,
 /area/vtm/interior/bianchiBank)
@@ -75465,7 +75478,7 @@
 /obj/effect/decal/shadow,
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /obj/structure/closet/body_bag,
 /turf/open/water,
@@ -75592,7 +75605,7 @@
 "wgg" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /obj/structure/railing{
 	dir = 8
@@ -78496,7 +78509,7 @@
 "xaH" = (
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /obj/structure/closet/crate/grave/filled/lead_researcher{
 	desc = "Even in a place filled to the brim with money and loveliness, this grave marked simply 'MAMA' fills you with an immediate sense of dread."
@@ -80280,7 +80293,7 @@
 "xCr" = (
 /obj/effect/landmark/start/darkpack/hecata/famiglia,
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/plating/granite,
@@ -80578,7 +80591,7 @@
 /obj/effect/decal/shadow,
 /obj/structure/railing{
 	dir = 1;
-	pixel_y = 12
+	pixel_y = 3
 	},
 /turf/open/water,
 /area/vtm/interior/bianchiBank)
@@ -81786,6 +81799,10 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
+"xXV" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/roofwalk,
+/area/vtm/interior/bianchiBank)
 "xXZ" = (
 /obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/city/circled,
@@ -82557,7 +82574,6 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior)
 "ykm" = (
-/obj/structure/table,
 /obj/structure/table/wood,
 /obj/effect/decal/wallpaper/gold/low,
 /obj/item/pen/fountain/captain{
@@ -165016,7 +165032,7 @@ raa
 lFF
 aIo
 aIo
-aIo
+hbT
 aIo
 iVj
 lIO
@@ -166821,7 +166837,7 @@ oLs
 oLs
 vYt
 oLs
-oLs
+jaM
 oLs
 oLs
 set
@@ -168358,7 +168374,7 @@ set
 set
 lro
 nzR
-oLs
+jaM
 ffv
 gUN
 uyB
@@ -169129,7 +169145,7 @@ set
 set
 lro
 nzR
-oLs
+jaM
 gPZ
 knC
 uyB
@@ -170676,7 +170692,7 @@ gQf
 ryK
 oLs
 oLs
-oLs
+jaM
 oLs
 oLs
 set
@@ -229815,7 +229831,7 @@ ueK
 qxt
 sKz
 sKz
-dfG
+tiN
 iNm
 iNm
 lzL
@@ -235187,7 +235203,7 @@ uIl
 pCw
 uIl
 uIl
-kBn
+igu
 kWg
 yiY
 dAZ
@@ -236459,7 +236475,7 @@ ntq
 ntq
 ntq
 set
-lgX
+xXV
 vnO
 dAZ
 dAZ
