@@ -56862,15 +56862,6 @@
 /obj/effect/spawner/random/bedsheet/any,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior)
-"qFr" = (
-/obj/structure/chair/wood/wings{
-	dir = 1
-	},
-/obj/structure/chair/wood/wings{
-	dir = 1
-	},
-/turf/open/floor/carpet/royalblack,
-/area/vtm/interior/banu)
 "qFv" = (
 /obj/structure/railing{
 	dir = 4
@@ -78697,7 +78688,6 @@
 	max_integrity = 100000
 	},
 /obj/structure/barricade/wooden/crude,
-/obj/structure/barricade/wooden/crude,
 /obj/structure/barricade/wooden,
 /obj/structure/platform/lowwall/painted/window/reinforced,
 /turf/open/floor/plating/rough,
@@ -79750,11 +79740,6 @@
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
-"xtt" = (
-/obj/structure/chair/wood/wings,
-/obj/structure/chair/wood/wings,
-/turf/open/floor/carpet,
-/area/vtm/interior/theatre)
 "xtG" = (
 /obj/effect/decal/wallpaper/paper/rich,
 /turf/closed/wall/vampwall/rich/old,
@@ -182828,7 +182813,7 @@ opq
 bFO
 buY
 vop
-xtt
+vop
 ssN
 vop
 grt
@@ -205828,7 +205813,7 @@ jXv
 lUN
 oNS
 nZJ
-qFr
+gAj
 hrx
 jlv
 avt
