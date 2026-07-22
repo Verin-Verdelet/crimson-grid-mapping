@@ -7359,9 +7359,7 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/anarch/basement)
 "cgF" = (
-/obj/structure/sign/city/chinese/alt{
-	dir = 1
-	},
+/obj/structure/sign/city/chinese/alt/directional/east,
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/chinatown)
@@ -11068,7 +11066,7 @@
 /area/vtm/interior/millennium_tower)
 "diA" = (
 /obj/structure/railing{
-	dir = 4
+	pixel_y = -2
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/clinic)
@@ -12606,6 +12604,7 @@
 	desc = "A towering basalt sculpture of a proud and regal dragon, it was a hassle to ship this from the Old World, but well worth the effort to have it. Its eyes are six glowing gemstones.";
 	name = "Dragon statue"
 	},
+/obj/machinery/light/small/red/directional/north,
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/tzimisce_sanctum)
 "dIr" = (
@@ -14130,8 +14129,8 @@
 /turf/open/floor/carpet,
 /area/vtm/interior/bianchiBank)
 "efY" = (
-/obj/machinery/light/dim/directional/south,
 /obj/effect/decal/cleanable/blood,
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/sewer)
 "egb" = (
@@ -17119,7 +17118,6 @@
 "fcl" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/structure/tank_holder/extinguisher,
-/obj/machinery/light,
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/plating,
 /area/vtm/interior/strip)
@@ -18273,7 +18271,6 @@
 /obj/item/reagent_containers/cup/bucket,
 /obj/item/mop,
 /obj/structure/sink/directional/east,
-/obj/machinery/light,
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/plating,
 /area/vtm/interior/strip)
@@ -19217,13 +19214,6 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/baali)
-"fFJ" = (
-/obj/structure/sign/city/store/bacotell{
-	pixel_x = 16;
-	pixel_y = 40
-	},
-/turf/open/misc/grass,
-/area/vtm/outside/financialdistrict)
 "fFK" = (
 /obj/structure/table/wood/fancy/blue,
 /obj/item/paper_bin,
@@ -20521,7 +20511,7 @@
 /area/vtm/interior/shop)
 "fZu" = (
 /obj/item/reagent_containers/cup/glass/baggie/meth/cocaine,
-/obj/machinery/light/small/red/directional/north,
+/obj/machinery/light/small/red/directional/south,
 /obj/machinery/light/small/red/directional/south,
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/endron_facility)
@@ -26136,10 +26126,6 @@
 /obj/structure/vampfence/rich,
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/park)
-"hHF" = (
-/obj/machinery/light/small/directional/north,
-/turf/closed/wall/vampwall/bar,
-/area/vtm/interior/anarch/basement)
 "hHK" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -32115,7 +32101,7 @@
 /obj/structure/chair{
 	dir = 4
 	},
-/obj/machinery/light/small/red/directional/east,
+/obj/machinery/light/directional/west,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/clinic)
 "jyW" = (
@@ -34414,10 +34400,6 @@
 /obj/structure/ladder/manhole/down,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/unionsquare)
-"kjg" = (
-/obj/machinery/light/small/red/directional/east,
-/turf/closed/wall/vampwall/painted,
-/area/vtm/interior/clinic)
 "kjj" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -36094,11 +36076,6 @@
 	},
 /turf/open/floor/wood/old,
 /area/vtm/interior/hotel)
-"kJS" = (
-/obj/item/cigbutt,
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/anarch/basement)
 "kJZ" = (
 /obj/effect/turf_decal/bordur{
 	dir = 8
@@ -39356,9 +39333,7 @@
 /obj/underplate{
 	pixel_y = 8
 	},
-/obj/structure/sign/city/store/bacotell{
-	pixel_y = 40
-	},
+/obj/structure/sign/city/store/bacotell/directional/north,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop)
 "lHl" = (
@@ -56614,7 +56589,6 @@
 /obj/item/vamp/keys/pentex,
 /obj/item/vamp/keys/pentex,
 /obj/item/vamp/keys/pentex,
-/obj/machinery/light/small/red/directional/east,
 /obj/item/vamp/keys/pentex,
 /obj/item/vamp/keys/pentex,
 /obj/item/vamp/keys/pentex,
@@ -58412,7 +58386,6 @@
 	dir = 1;
 	pixel_y = 12
 	},
-/obj/machinery/light/directional/west,
 /turf/open/misc/grass,
 /area/vtm/interior/jazzclub)
 "ref" = (
@@ -61211,11 +61184,6 @@
 /obj/effect/decal/cleanable/litter,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights/forest)
-"rTp" = (
-/obj/effect/decal/cleanable/litter,
-/obj/machinery/light/small/red/directional/south,
-/turf/open/floor/plating/rough,
-/area/vtm/outside/forest)
 "rTq" = (
 /mob/living/basic/corvid/crow,
 /turf/open/floor/plating/roofwalk,
@@ -67112,6 +67080,10 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/bianchiBank)
+"tHu" = (
+/obj/structure/sign/city/store/bacotell/directional/north,
+/turf/open/misc/grass,
+/area/vtm/outside/financialdistrict)
 "tHv" = (
 /obj/effect/turf_decal/bordur/corner,
 /obj/structure/roadsign/street,
@@ -70713,11 +70685,6 @@
 	},
 /turf/open/floor/carpet/lone,
 /area/vtm/interior/chantry)
-"uNz" = (
-/obj/machinery/light/small/red/directional/south,
-/obj/effect/decal/gut_floor,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/sewer)
 "uNJ" = (
 /obj/structure/vampdoor/wood,
 /turf/open/floor/carpet/darkpack/old,
@@ -74245,7 +74212,7 @@
 "vQY" = (
 /obj/structure/table,
 /obj/item/paper,
-/obj/machinery/light/small/red/directional/south,
+/obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/outside/forest)
 "vRf" = (
@@ -82078,7 +82045,6 @@
 /area/vtm/interior/millennium_tower/f4)
 "yhv" = (
 /obj/structure/chair/old/tzimisce,
-/obj/machinery/light/small/red/directional/north,
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/tzimisce_sanctum)
 "yhA" = (
@@ -103026,8 +102992,8 @@ klB
 vzD
 ctG
 jfr
-kJS
-vzD
+ylG
+blV
 mLp
 oIa
 kfi
@@ -105077,7 +105043,7 @@ nJs
 bIY
 bIY
 bRM
-hHF
+mLp
 fSU
 dLh
 fSU
@@ -124125,7 +124091,7 @@ wTq
 wTq
 wTq
 wTq
-uNz
+eaU
 ktx
 lTU
 oBO
@@ -125153,7 +125119,7 @@ wTq
 wTq
 wTq
 wTq
-uNz
+eaU
 vQB
 lTU
 wAc
@@ -130279,7 +130245,7 @@ wTq
 fyb
 wTq
 wTq
-uNz
+eaU
 mUa
 gwI
 wTq
@@ -179068,7 +179034,7 @@ bUt
 drP
 iBf
 cTu
-uTu
+bUt
 hDU
 jcx
 jcx
@@ -180096,7 +180062,7 @@ bUt
 drP
 faX
 cTu
-uTu
+bUt
 rHp
 jcx
 sSW
@@ -181642,7 +181608,7 @@ kCM
 bUt
 bUt
 bUt
-kjg
+bUt
 bUt
 eyY
 jcx
@@ -189698,7 +189664,7 @@ scR
 scR
 jem
 bvc
-fFJ
+fxx
 fxx
 fxx
 kZn
@@ -190726,7 +190692,7 @@ scR
 sRm
 fvs
 bvc
-fxx
+tHu
 fxx
 fxx
 kZn
@@ -385875,7 +385841,7 @@ kfi
 kfi
 oIa
 dpH
-rTp
+njk
 mjq
 cjT
 tft
